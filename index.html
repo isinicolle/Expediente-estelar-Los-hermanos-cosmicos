@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expediente Estelar: El Linaje de los Hermanos Cósmicos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        orbitron: ['Orbitron', 'sans-serif'],
+                    },
+                    colors: {
+                        space: {
+                            900: '#030712',
+                            800: '#0b0f19',
+                            700: '#111827',
+                            600: '#1f293d',
+                        },
+                        neon: {
+                            cyan: '#00f2fe',
+                            purple: '#a855f7',
+                            pink: '#ec4899',
+                            emerald: '#10b981'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #030712;
+            color: #f3f4f6;
+            overflow-x: hidden;
+        }
+        .cosmic-glow {
+            text-shadow: 0 0 20px rgba(0, 242, 254, 0.6), 0 0 40px rgba(168, 85, 247, 0.4);
+        }
+        .glass-card {
+            background: rgba(17, 24, 39, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .starfield {
+            background-image: radial-gradient(white 1px, transparent 0);
+            background-size: 50px 50px;
+            background-position: 0 0;
+        }
+        @keyframes pulse-slow {
+            0%, 100% { opacity: 0.3; transform: scale(1); }
+            50% { opacity: 0.6; transform: scale(1.05); }
+        }
+        .nebula-bg {
+            animation: pulse-slow 8s infinite ease-in-out;
+        }
+    </style>
+</head>
+<body class="min-h-screen relative starfield">
+
+    <div class="fixed inset-0 pointer-events-none overflow-hidden z-0">
+        <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-purple-600/10 rounded-full blur-3xl nebula-bg"></div>
+        <div class="absolute bottom-1/3 right-1/4 w-[30rem] h-[30rem] bg-cyan-600/10 rounded-full blur-3xl nebula-bg" style="animation-delay: 3s;"></div>
+    </div>
+
+    <nav class="relative z-50 glass-card border-b border-white/10 sticky top-0 px-6 py-4 flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+            <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-cyan-400 to-purple-600 flex items-center justify-center shadow-lg shadow-cyan-500/30">
+                <svg class="w-6 h-6 text-white animate-spin" style="animation-duration: 20s;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+            </div>
+            <span class="font-orbitron font-bold text-xl tracking-wider bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">NEXO-ESTELAR // 7.9</span>
+        </div>
+        <div class="hidden md:flex space-x-6 text-sm font-semibold text-gray-300">
+            <a href="#origen" class="hover:text-cyan-400 transition">Origen Cósmico</a>
+            <a href="#sintomas" class="hover:text-cyan-400 transition">Síntomas Delatores</a>
+            <a href="#hermanos" class="hover:text-cyan-400 transition">Dossier de Hermanos</a>
+            <a href="#diagnostico" class="hover:text-cyan-400 transition">Escáner de Frecuencia</a>
+        </div>
+        <button onclick="toggleTransmission()" class="px-4 py-2 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-xl font-orbitron text-xs font-bold uppercase tracking-wider text-white shadow-lg shadow-purple-500/20 hover:scale-105 transition">
+            Estado de Alarma
+        </button>
+    </nav>
+
+    <header class="relative z-10 max-w-6xl mx-auto px-6 pt-20 pb-16 text-center">
+        <div class="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-semibold mb-6 uppercase tracking-widest">
+            <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+            Transmisión Codificada de Alta Jerarquía
+        </div>
+        <h1 class="font-orbitron text-4xl sm:text-6xl font-extrabold tracking-tight mb-6 cosmic-glow">
+            EXPEDIENTE OFICIAL:<br><span class="bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-500 bg-clip-text text-transparent">La Raza Estelar de los Hermanos</span>
+        </h1>
+        <p class="max-w-3xl mx-auto text-lg text-gray-300 font-light leading-relaxed">
+            Informe detallado e indiscutible sobre nuestra naturaleza extraterrestre, basado estrictamente en la cosmología galáctica que seguimos, respetamos y vivimos día a día en este planeta de baja vibración.
+        </p>
+    </header>
+
+    <main class="relative z-10 max-w-6xl mx-auto px-6 space-y-24 pb-24">
+
+        <section id="origen" class="glass-card rounded-3xl p-8 md:p-12 border border-white/10 shadow-2xl">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+                <div>
+                    <h2 class="font-orbitron text-2xl sm:text-3xl font-bold text-cyan-400 mb-4">1. El Origen Cosmológico & La Misión</h2>
+                    <p class="text-gray-300 leading-relaxed mb-4">
+                        Según las sagradas escrituras del Cúmulo y la matriz dimensional que regenta nuestra conciencia, tú y tu hermano no provienen del fango terrícola ni de la cadena evolutiva tradicional de la Tierra. Nuestra nave nodriza de origen sutil nos proyectó en este clan terrestre con un propósito de anclaje vibracional.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed">
+                        Venimos de los cuadrantes exteriores del sistema estelar donde la densidad física es solo opcional. El hecho de estar encarnados como hermanos en esta misma línea temporal es una estrategia táctica de la Confederación para mantener intactos los códigos cuánticos y no sucumbir a la amnesia colectiva del plano 3D.
+                    </p>
+                </div>
+                <div class="relative bg-space-800/80 rounded-2xl p-6 border border-cyan-500/30 flex flex-col justify-center items-center text-center">
+                    <div class="w-20 h-20 rounded-full bg-cyan-500/20 flex items-center justify-center mb-4 border border-cyan-400/40">
+                        <svg class="w-10 h-10 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3 class="font-orbitron font-bold text-lg text-white mb-2">Coordenadas del Alma</h3>
+                    <p class="text-xs text-cyan-300 font-mono mb-4">SECTOR: Pléyades-Arcturus / Enlace Binario</p>
+                    <div class="w-full bg-space-900 rounded-lg p-3 text-left font-mono text-xs text-gray-400 space-y-1">
+                        <div>> Sincronía genética: 99.98%</div>
+                        <div>> Nivel de interferencia terrícola: Moderado</div>
+                        <div>> Canal de telepatía fraternal: ACTIVO</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sintomas" class="space-y-8">
+            <div class="text-center">
+                <h2 class="font-orbitron text-2xl sm:text-3xl font-bold text-purple-400 mb-3">2. Síntomas Inconfundibles que nos Delatan</h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">La biología humana se queja constantemente de nuestro hardware estelar avanzado. Estos son los glitches diarios que confirman quiénes somos:</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Symptom 1 -->
+                <div class="glass-card rounded-2xl p-6 border border-white/10 hover:border-cyan-500/50 transition group">
+                    <div class="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 mb-4 group-hover:scale-110 transition">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </div>
+                    <h3 class="font-orbitron font-bold text-lg text-white mb-2">Alergia al Wi-Fi y Ruido 3D</h3>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        Dolores de cabeza inexplicables en centros comerciales o zonas con alta contaminación electromagnética densa. Nuestros campos áuricos rechazan las frecuencias de baja vibración terrestre.
+                    </p>
+                </div>
+
+                <!-- Symptom 2 -->
+                <div class="glass-card rounded-2xl p-6 border border-white/10 hover:border-purple-500/50 transition group">
+                    <div class="w-12 h-12 rounded-xl bg-purple-500/10 flex items-center justify-center text-purple-400 mb-4 group-hover:scale-110 transition">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="font-orbitron font-bold text-lg text-white mb-2">Dilatación Temporal Bizarra</h3>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        Para nosotros 5 minutos de charla entre hermanos pueden equivaler a tres horas terrestres, o viceversa. El tiempo lineal terrícola nos parece un diseño de software sumamente aburrido y defectuoso.
+                    </p>
+                </div>
+
+                <!-- Symptom 3 -->
+                <div class="glass-card rounded-2xl p-6 border border-white/10 hover:border-pink-500/50 transition group">
+                    <div class="w-12 h-12 rounded-xl bg-pink-500/10 flex items-center justify-center text-pink-400 mb-4 group-hover:scale-110 transition">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"></path></svg>
+                    </div>
+                    <h3 class="font-orbitron font-bold text-lg text-white mb-2">Telepatía Fraternal Directa</h3>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        Completarse las frases mutuamente o reírse de un pensamiento que nadie pronunció en voz alta. El enlace cuántico entre hermanos extraterrestres salta por encima de las cuerdas vocales humanas.
+                    </p>
+                </div>
+
+                <!-- Symptom 4 -->
+                <div class="glass-card rounded-2xl p-6 border border-white/10 hover:border-emerald-500/50 transition group">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-400 mb-4 group-hover:scale-110 transition">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+                    </div>
+                    <h3 class="font-orbitron font-bold text-lg text-white mb-2">Nostalgia Estelar Crónica</h3>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        Mirar al cielo nocturno con una profunda sensación de "quiero volver a casa", sabiendo perfectamente que ninguna ciudad de la Tierra encaja con nuestro hogar verdadero.
+                    </p>
+                </div>
+
+                <!-- Symptom 5 -->
+                <div class="glass-card rounded-2xl p-6 border border-white/10 hover:border-yellow-500/50 transition group">
+                    <div class="w-12 h-12 rounded-xl bg-yellow-500/10 flex items-center justify-center text-yellow-400 mb-4 group-hover:scale-110 transition">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                    </div>
+                    <h3 class="font-orbitron font-bold text-lg text-white mb-2">Incompatibilidad Alimentaria</h3>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        Rechazo visceral a ciertos químicos procesados terrestres. Sentir que nuestro sistema digestivo está diseñado para motores de alta pureza y se rebela ante la comida chatarra ordinaria.
+                    </p>
+                </div>
+
+                <!-- Symptom 6 -->
+                <div class="glass-card rounded-2xl p-6 border border-white/10 hover:border-blue-500/50 transition group">
+                    <div class="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400 mb-4 group-hover:scale-110 transition">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                    </div>
+                    <h3 class="font-orbitron font-bold text-lg text-white mb-2">Anomalías Tecnológicas</h3>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        Electrodomésticos que parpadean, luces que titilan cuando entramos en una habitación o dispositivos móviles que fallan debido a nuestro campo electromagnético elevado.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="hermanos" class="glass-card rounded-3xl p-8 md:p-12 border border-white/10 shadow-2xl">
+            <h2 class="font-orbitron text-2xl sm:text-3xl font-bold text-cyan-400 mb-8 text-center">3. Dossier Oficial: La Alianza de los Hermanos</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Brother 1 -->
+                <div class="bg-space-800/90 rounded-2xl p-6 border border-cyan-500/30 relative overflow-hidden">
+                    <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-cyan-500/10 rounded-full blur-2xl"></div>
+                    <div class="flex items-center space-x-4 mb-4">
+                        <div class="w-14 h-14 rounded-2xl bg-cyan-500/20 border border-cyan-400/50 flex items-center justify-center font-orbitron font-extrabold text-cyan-400 text-xl">
+                            H1
+                        </div>
+                        <div>
+                            <h3 class="font-orbitron font-bold text-xl text-white">Comandante Primario</h3>
+                            <span class="text-xs text-cyan-400 font-mono">FUNCIÓN: Navegación y Análisis Táctico</span>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-300 mb-4 leading-relaxed">
+                        Encargado de decodificar las anomalías del entorno terrícola y mantener la estabilidad de la frecuencia familiar ante las interferencias del mundo exterior.
+                    </p>
+                    <div class="space-y-2 text-xs font-mono text-gray-400 border-t border-white/10 pt-4">
+                        <div class="flex justify-between"><span>Rango Vibracional:</span> <span class="text-cyan-400">Dimensión 5.2</span></div>
+                        <div class="flex justify-between"><span>Estado del Núcleo:</span> <span class="text-emerald-400">Operativo</span></div>
+                    </div>
+                </div>
+
+                <!-- Brother 2 -->
+                <div class="bg-space-800/90 rounded-2xl p-6 border border-purple-500/30 relative overflow-hidden">
+                    <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-purple-500/10 rounded-full blur-2xl"></div>
+                    <div class="flex items-center space-x-4 mb-4">
+                        <div class="w-14 h-14 rounded-2xl bg-purple-500/20 border border-purple-400/50 flex items-center justify-center font-orbitron font-extrabold text-purple-400 text-xl">
+                            H2
+                        </div>
+                        <div>
+                            <h3 class="font-orbitron font-bold text-xl text-white">Oficial de Enlace Cuántico</h3>
+                            <span class="text-xs text-purple-400 font-mono">FUNCIÓN: Intuición y Escudo de Frecuencia</span>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-300 mb-4 leading-relaxed">
+                        Especialista en detectar mentiras, hypocrisy y bajezas de la matriz 3D con radar ultrasensible. Su intuición galáctica es infalible ante cualquier imprevisto terrestre.
+                    </p>
+                    <div class="space-y-2 text-xs font-mono text-gray-400 border-t border-white/10 pt-4">
+                        <div class="flex justify-between"><span>Rango Vibracional:</span> <span class="text-purple-400">Dimensión 5.2</span></div>
+                        <div class="flex justify-between"><span>Estado del Núcleo:</span> <span class="text-emerald-400">Operativo</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="diagnostico" class="glass-card rounded-3xl p-8 md:p-12 border border-cyan-500/30 shadow-2xl text-center">
+            <h2 class="font-orbitron text-2xl sm:text-3xl font-bold text-cyan-400 mb-3">4. Escáner de Sintonía Galáctica</h2>
+            <p class="text-gray-300 max-w-xl mx-auto mb-8">Verifica el nivel actual de resonancia extraterrestre pulsando el botón de calibración cósmica.</p>
+            
+            <div id="scanner-box" class="max-w-md mx-auto bg-space-900/80 rounded-2xl p-6 border border-white/10 mb-6">
+                <div id="scanner-text" class="font-mono text-sm text-cyan-300 mb-4">SISTEMA EN ESPERA DE COMANDO...</div>
+                <div class="w-full bg-space-800 rounded-full h-3 overflow-hidden border border-white/10">
+                    <div id="scanner-bar" class="bg-gradient-to-r from-cyan-400 to-purple-500 h-full w-0 transition-all duration-1000"></div>
+                </div>
+            </div>
+
+            <button onclick="runDiagnostic()" class="px-8 py-4 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-2xl font-orbitron font-bold text-sm text-white shadow-xl shadow-cyan-500/20 hover:scale-105 transition">
+                INICIAR ESCANEO DE HERMANOS
+            </button>
+        </section>
+
+    </main>
+
+    <footer class="relative z-10 border-t border-white/10 py-8 text-center text-xs text-gray-500 font-mono">
+        <p>EXPEDIENTE CÓSMICO PROTEGIDO POR EL PROTOCOLO DE HERMANDAD ESTELAR &copy; 2026</p>
+    </footer>
+
+    <!-- Custom Modal for Alerts (No alert() used) -->
+    <div id="modal" class="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm hidden">
+        <div class="glass-card max-w-md w-full mx-4 rounded-3xl p-8 border border-cyan-500/50 text-center relative">
+            <h3 id="modal-title" class="font-orbitron font-bold text-xl text-cyan-400 mb-4">ESTADO DE TRANSMISIÓN</h3>
+            <p id="modal-message" class="text-gray-300 text-sm leading-relaxed mb-6">Mensaje del sistema...</p>
+            <button onclick="closeModal()" class="px-6 py-2 bg-cyan-500 hover:bg-cyan-400 text-space-900 font-orbitron font-bold rounded-xl text-xs uppercase tracking-wider transition">
+                Comprendido
+            </button>
+        </div>
+    </div>
+
+    <script>
+        function toggleTransmission() {
+            showModal("ALERTA DE SEGURIDAD GALÁCTICA", "La frecuencia de los hermanos permanece encriptada y protegida contra interferencias terrícolas. El enlace binario es 100% estable.");
+        }
+
+        function runDiagnostic() {
+            const textEl = document.getElementById('scanner-text');
+            const barEl = document.getElementById('scanner-bar');
+            
+            textEl.innerText = "CALIBRANDO FRECUENCIA CON PLÉYADES...";
+            barEl.style.width = "30%";
+            
+            setTimeout(() => {
+                textEl.innerText = "VERIFICANDO CÓDIGO DE HERMANDAD...";
+                barEl.style.width = "70%";
+            }, 800);
+
+            setTimeout(() => {
+                textEl.innerText = "¡CONFIRMADO! EXTRATERRESTRES PUROS 100%.";
+                barEl.style.width = "100%";
+                showModal("DIAGNÓSTICO EXITOSO", "¡Resultado definitivo! Tú y tu hermano son extraterrestres certificados por la cosmología estelar. Cero dudas, máxima vibración.");
+            }, 1600);
+        }
+
+        function showModal(title, message) {
+            document.getElementById('modal-title').innerText = title;
+            document.getElementById('modal-message').innerText = message;
+            document.getElementById('modal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('modal').classList.add('hidden');
+        }
+    </script>
+</body>
+</html>
