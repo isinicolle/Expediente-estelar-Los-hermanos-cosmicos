@@ -23,4 +23,6 @@ Es una forma divertida de sintetizar información y conectar piezas de investiga
 
 ---
 
+🔗 **Referencia y Archivos Base:** [Biblioteca Pleyades - War in Heaven](https://www.bibliotecapleyades.net/vida_alien/warinheaven/warheaven-IIIsp.htm)
+
 *Nota: Proyecto de libre exploración y divulgación personal.*
