@@ -468,12 +468,12 @@
             </div>
 
             <div id="quiz-container" class="space-y-6 max-w-2xl mx-auto">
-                <div class="bg-space-800/80 rounded-2xl p-6 border border-white/10 space-y-4">
+                <div id="test-box" class="bg-space-800/80 rounded-2xl p-6 border border-white/10 space-y-4">
                     <span class="text-xs text-cyan-400 font-mono">Pregunta 1 de 3</span>
                     <h3 class="font-orbitron font-bold text-base text-gray-200">¿Qué haces cuando un líder carismático o gurú exige obediencia ciega a sus dogmas?</h3>
                     <div class="space-y-2 pt-2">
-                        <button onclick="answerQuiz(false)" class="w-full text-left px-4 py-3 rounded-xl bg-space-900/80 border border-white/10 hover:border-cyan-400 text-sm text-gray-300 transition">A) Acepto sus palabras por miedo a equivocarme o perder su aprobación.</button>
-                        <button onclick="answerQuiz(true)" class="w-full text-left px-4 py-3 rounded-xl bg-space-900/80 border border-white/10 hover:border-cyan-400 text-sm text-gray-300 transition">B) Analizo sus premisas con rigor implacable y rechazo cualquier coerción jerárquica.</button>
+                        <button onclick="siguientePregunta(0)" class="w-full text-left px-4 py-3 rounded-xl bg-space-900/80 border border-white/10 hover:border-cyan-400 text-sm text-gray-300 transition">A) Acepto sus palabras por miedo a equivocarme o perder su aprobación.</button>
+                        <button onclick="siguientePregunta(1)" class="w-full text-left px-4 py-3 rounded-xl bg-space-900/80 border border-white/10 hover:border-cyan-400 text-sm text-gray-300 transition">B) Analizo sus premisas con rigor implacable y rechazo cualquier coerción jerárquica.</button>
                     </div>
                 </div>
             </div>
@@ -535,25 +535,103 @@
             }, 100);
         }
 
-        function answerQuiz(isSovereign) {
-            const container = document.getElementById('quiz-container');
-            const resultBox = document.getElementById('quiz-result');
-            const feedback = document.getElementById('quiz-feedback');
+        const preguntasTest = [
+            {
+                pregunta: "¿Qué haces cuando un líder carismático o gurú exige obediencia ciega a sus dogmas?",
+                opciones: [
+                    "A) Acepto sus palabras por miedo a equivocarme o perder su aprobación.",
+                    "B) Analizo sus premisas con rigor implacable y rechazo cualquier coerción jerárquica."
+                ],
+                correcta: 1, // La opción B es la correcta (soberana)
+                errorMsg: "¡Alerta! Aceptar dogmas por miedo o aprobación indica un inicio de lavado de cerebro teocrático. Un alma soberana analiza con rigor. Inténtalo de nuevo."
+            },
+            {
+                pregunta: "¿Cómo gestionas la información que te llega del exterior?",
+                opciones: [
+                    "A) La acepto tal cual si la dice la mayoría para evitar conflictos.",
+                    "B) La filtro mediante investigación profunda y criterio independiente."
+                ],
+                correcta: 1,
+                errorMsg: "¡Cuidado! Tragar información de la manada sin filtrar te vuelve sumiso al sistema. Debes usar tu criterio independiente. Vuelve a intentarlo."
+            },
+            {
+                pregunta: "¿Cuál es tu postura ante el aislamiento y el enfoque en tus proyectos?",
+                opciones: [
+                    "A) Me da ansiedad; necesito la validación constante de los demás.",
+                    "B) Es mi espacio de soberanía mental; allí construyo mi libertad intelectual."
+                ],
+                correcta: 1,
+                errorMsg: "Depender de la validación externa debilita tu chasis astral. Tu mente debe ser autónoma. Elige la opción correcta para avanzar."
+            }
+        ];
 
-            container.classList.add('hidden');
-            resultBox.classList.remove('hidden');
+        let preguntaActual = 0;
 
-            if (isSovereign) {
-                feedback.innerText = "¡Resultado Excepcional! Tu circuito opera desde el Trance Psíquico y la Soberanía Absoluta. El Colegio Invisible te reconoce como miembro activo.";
+        function siguientePregunta(opcionElegida) {
+            const cajaTest = document.getElementById('test-box');
+            const preguntaActualObj = preguntasTest[preguntaActual];
+
+            // Validar si la respuesta es INCORRECTA
+            if (opcionElegida !== preguntaActualObj.correcta) {
+                // Se queda en la misma pregunta y muestra un mensaje de retroalimentación de error
+                cajaTest.innerHTML = `
+                    <span class="text-xs text-red-400 font-mono">Pregunta ${preguntaActual + 1} de ${preguntasTest.length} - ¡ATENCIÓN!</span>
+                    <h3 class="font-orbitron font-bold text-base text-gray-200">${preguntaActualObj.pregunta}</h3>
+                    <div class="my-3 p-4 rounded-xl bg-red-950/40 border border-red-500/40 text-sm text-red-300">
+                        ${preguntaActualObj.errorMsg}
+                    </div>
+                    <div class="space-y-2 pt-2">
+                        <button onclick="siguientePregunta(0)" class="w-full text-left px-4 py-3 rounded-xl bg-space-900/80 border border-white/10 hover:border-cyan-400 text-sm text-gray-300 transition">${preguntaActualObj.opciones[0]}</button>
+                        <button onclick="siguientePregunta(1)" class="w-full text-left px-4 py-3 rounded-xl bg-space-900/80 border border-white/10 hover:border-cyan-400 text-sm text-gray-300 transition">${preguntaActualObj.opciones[1]}</button>
+                    </div>
+                `;
+                return; // Frena aquí y no avanza hasta que elija bien
+            }
+
+            // Si es CORRECTA, avanza a la siguiente pregunta
+            preguntaActual++;
+
+            if (preguntaActual < preguntasTest.length) {
+                let p = preguntasTest[preguntaActual];
+                cajaTest.innerHTML = `
+                    <span class="text-xs text-cyan-400 font-mono">Pregunta ${preguntaActual + 1} de ${preguntasTest.length} - ¡Correcto! Avanzando en el circuito</span>
+                    <h3 class="font-orbitron font-bold text-base text-gray-200">${p.pregunta}</h3>
+                    <div class="space-y-2 pt-2">
+                        <button onclick="siguientePregunta(0)" class="w-full text-left px-4 py-3 rounded-xl bg-space-900/80 border border-white/10 hover:border-cyan-400 text-sm text-gray-300 transition">${p.opciones[0]}</button>
+                        <button onclick="siguientePregunta(1)" class="w-full text-left px-4 py-3 rounded-xl bg-space-900/80 border border-white/10 hover:border-cyan-400 text-sm text-gray-300 transition">${p.opciones[1]}</button>
+                    </div>
+                `;
             } else {
-                feedback.innerText = "Alerta: Se detectaron rastros de condicionamiento teocrático o sumisión a jerarquías externas. Realiza calibración con el Símbolo G para recuperar tu autonomía.";
+                // Terminó todo el test de forma exitosa y soberana
+                const container = document.getElementById('quiz-container');
+                const resultBox = document.getElementById('quiz-result');
+                const feedback = document.getElementById('quiz-feedback');
+
+                container.classList.add('hidden');
+                resultBox.classList.remove('hidden');
+
+                feedback.innerText = "¡Diagnóstico Definitivo: Soberanía Absoluta Confirmada! Has superado todas las trampas del condicionamiento y demostrado que tu circuito opera desde el Trance Psíquico y la lucidez del Colegio Invisible.";
             }
         }
 
         function resetQuiz() {
+            preguntaActual = 0;
             document.getElementById('quiz-container').classList.remove('hidden');
             document.getElementById('quiz-result').classList.add('hidden');
+            
+            // Restaurar la primera pregunta de forma limpia
+            const cajaTest = document.getElementById('test-box');
+            let p = preguntasTest[0];
+            cajaTest.innerHTML = `
+                <span class="text-xs text-cyan-400 font-mono">Pregunta 1 de 3</span>
+                <h3 class="font-orbitron font-bold text-base text-gray-200">${p.pregunta}</h3>
+                <div class="space-y-2 pt-2">
+                    <button onclick="siguientePregunta(0)" class="w-full text-left px-4 py-3 rounded-xl bg-space-900/80 border border-white/10 hover:border-cyan-400 text-sm text-gray-300 transition">${p.opciones[0]}</button>
+                    <button onclick="siguientePregunta(1)" class="w-full text-left px-4 py-3 rounded-xl bg-space-900/80 border border-white/10 hover:border-cyan-400 text-sm text-gray-300 transition">${p.opciones[1]}</button>
+                </div>
+            `;
         }
+
     </script>
 </body>
 </html>
