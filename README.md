@@ -150,53 +150,6 @@ Es una forma divertida de sintetizar información y conectar piezas de investiga
 * **README.md:** Manifiesto del proyecto, índice de contenidos de *War in Heaven* de Kyle Griffith y enlaces de referencia[cite: 1].
 * **LICENSE:** Marco legal bajo **Licencia MIT** (Código Abierto total para la comunidad de exploradores estelares)[cite: 1].
 
-https://www.youtube.com/embed/M-P4QBt-FWw
+[Alan Walker, Sabrina Carpenter & Farruko - On My Way](https://youtu.be/dhYOPzcsbGM)
 
-We're not in love
-We share no stories
-Just something in your eyes
-Don't be afraid
-The shadows know me
-Let's leave the world behind
-Take me through the night
-Fall into the dark side
-We don't need the light
-We'll live on the dark side
-I see it, let's feel it
-While we're still young and fearless
-Let go of the light
-Fall into the dark side
-Fall into the dark side
-Give into the dark side
-Let go of the light
-Fall into the dark side
-Beneath the sky
-As black as diamonds
-We're running out of time (time, time)
-Don't wait for truth
-To come and blind us
-Let's just believe their lies
-Believe it, I see it
-I know that you can feel it
-No secrets worth keeping
-So fool me like I'm dreaming
-Take me through the night
-Fall into the dark side
-We don't need the light
-We'll live on the dark side
-I see it, let's feel it
-While we're still young and fearless
-Let go of the light
-Fall into the dark side
-Fall into the dark side
-Give into the dark side
-Let go of the light
-Fall into the dark side
-Take me through the night
-Fall into the dark side
-We don't need the light
-We'll live on the dark side
-I see it, let's feel it
-While we're still young and fearless
-Let go of the light
-Fall into the dark side
+I'm sorry butDon't wanna talk, I need a moment 'fore I goIt's nothing personalI draw the blindsThey don't need to see me cry'Cause even if they understandThey don't understandSo then when I'm finishedI'm all 'bout my business and ready to save the worldI'm taking my miseryMake it my bitch, can't be everyone's favorite girlSo take aim and fire awayI've never been so wide awakeNo, nobody but me can keep me safeAnd I'm on my wayThe blood moon is on the riseThe fire burning in my eyesNo, nobody but me can keep me safeAnd I'm on my wayLo siento mucho (Farru), pero me voyPorque a tu lado me di cuenta que nada soyY me cansé de luchar y de guerrear en vanoDe estar en la línea de fuego y de meter la manoAcepto mis errores, también soy humanoY tú no ve' que lo hago porque te amoPero ya (Ya) no tengo más na' que hacer aquí (aquí)Me voy, llegó la hora 'e partir (partir)De mi propio camino, seguir lejos de tiSo take aim and fire awayI've never been so wide awakeNo, nobody but me can keep me safeAnd I'm on my wayThe blood moon is on the rise (is on the rise, na-na)The fire burning in my eyes (the fire burning in my eyes)No, nobody but me can keep me safeAnd I'm on my wayI'm on my wayEverybody keep me safeEverybody keep me safeEverybody keep me safeEverybody, everybody on my waySo take aim and fire awayI've never been so wide awakeNo, nobody but me can keep me safeAnd I'm on my wayThe blood moon is on the riseThe fire burning in my eyesNo, nobody but me can keep me safeAnd I'm on my way
