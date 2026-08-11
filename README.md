@@ -105,3 +105,47 @@ Es una forma divertida de sintetizar información y conectar piezas de investiga
 * The Council of Nine[cite: 1]
 
 *Nota: Proyecto de libre exploración y divulgación personal.*
+
+# 🗺️ MAPA DEL SITIO: EXPEDIENTE ESTELAR (P2P NETWORK)
+
+📂 Expediente Estelar: Los Hermanos Cósmicos
+┣ 🏠 Página Principal (index.html)
+┃  ┣ 🚀 Sección Piloto & Estafa (Chasis somático vs. Alma astral)
+┃  ┣ ⚡ Sección Circuito & Condición (Biofísica cuántica y plano astral)
+┃  ┣ 🛡️ Sección Soberanía (Autogobierno y detección de falsos profetas)
+┃  ┣ ♀️ Sección Mujer & Machismo (Antropología sagrada y erradicación de la manada primate)
+┃  ┣ 🧬 Sección Psiquismo & Ocultismo (Biología pura del sistema nervioso)
+┃  ┣ 🌐 Sección Colegio Invisible & Actualidad (Redes P2P frente a la centralización tecnocrática)
+┃  ┗ 🌀 Sección Trance & Símbolo G (Frecuencias, Símbolo de la Revolución y Alarma)
+┃
+┣ 📄 Módulo de Información Detallada (info.html)
+┃  ┣ 🧠 Análisis extendido de WIH (War in Heaven)
+┃  ┣ ⚙️ Módulo Interactivo de Bio-Sintonía (Generador de Ondas de Frecuencia: 432 Hz, 528 Hz, 963 Hz)
+┃  ┣ 📝 Test de Soberanía Astral (Sistema interactivo de avance por aciertos y retroalimentación anti-teocracia)
+┃  ┗ 🔗 Enlaces y Referencias Externas (Biblioteca Pleyades)
+┃
+┗ 📜 Repositorio y Código Abierto (GitHub README.md + Licencia MIT)
+
+---
+
+## 🧭 DESGLOSE DE NODOS Y RUTAS
+
+### 1. Nivel Raíz: `index.html` (Puerto de Entrada Principal)
+* **Cabecera de Transmisión:** Estado de alarma y acceso rápido a los expedientes[cite: 1].
+* **Dossier Maestro de Secciones:**
+  * **El Piloto:** Desmontando el transhumanismo como estafa ontológica de silicio[cite: 1].
+  * **Topología Astral:** El circuito integrado del alma somática y astral[cite: 1].
+  * **Soberanía P2P:** Prácticas de autoempoderamiento y rechazo a los líderes coercitivos[cite: 1].
+  * **Antropología y Cohesión:** El papel sagrado de la mujer y la abolición del machismo[cite: 1].
+  * **Ciencia Sutil:** El psiquismo como hiper-sensibilidad neurológica y el ocultismo como física pura[cite: 1].
+  * **Geopolítica 2026:** El Colegio Invisible frente al control algorítmico global[cite: 1].
+  * **El Emblema:** La estrella de cinco puntas y la **G** central de la Gnosis[cite: 1].
+
+### 2. Nivel Secundario: `info.html` (Laboratorio y Módulo Interactivo)
+* **Comparativa de Trances:** Frecuencias del trance religioso (sumisión/egregor) vs. trance psíquico (soberanía/lucidez)[cite: 1].
+* **Generador Cuántico de Ondas:** Interfaz interactiva de sintonía celular y áurica[cite: 1].
+* **Test de Autonomía Astral:** Cuestionario secuencial con validación de respuestas correctas para desbloquear el diagnóstico definitivo de soberanía[cite: 1].
+
+### 3. Nivel de Soporte y Repositorio (`GitHub`)
+* **README.md:** Manifiesto del proyecto, índice de contenidos de *War in Heaven* de Kyle Griffith y enlaces de referencia[cite: 1].
+* **LICENSE:** Marco legal bajo **Licencia MIT** (Código Abierto total para la comunidad de exploradores estelares)[cite: 1].
