@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expediente Estelar: El Linaje de los Hermanos Cósmicos y Soberanía</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        orbitron: ['Orbitron', 'sans-serif'],
+                    },
+                    colors: {
+                        space: {
+                            900: '#030712',
+                            800: '#0b0f19',
+                            700: '#111827',
+                            600: '#1f293d',
+                        },
+                        neon: {
+                            cyan: '#00f2fe',
+                            purple: '#a855f7',
+                            pink: '#ec4899',
+                            emerald: '#10b981'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #030712;
+            color: #f3f4f6;
+            overflow-x: hidden;
+        }
+        .cosmic-glow {
+            text-shadow: 0 0 20px rgba(0, 242, 254, 0.6), 0 0 40px rgba(168, 85, 247, 0.4);
+        }
+        .glass-card {
+            background: rgba(17, 24, 39, 0.75);
+            backdrop-filter: blur(14px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .starfield {
+            background-image: radial-gradient(white 1px, transparent 0);
+            background-size: 50px 50px;
+            background-position: 0 0;
+        }
+        @keyframes pulse-slow {
+            0%, 100% { opacity: 0.3; transform: scale(1); }
+            50% { opacity: 0.6; transform: scale(1.05); }
+        }
+        .nebula-bg {
+            animation: pulse-slow 8s infinite ease-in-out;
+        }
+    </style>
+</head>
+<body class="min-h-screen relative starfield">
+
+    <div class="fixed inset-0 pointer-events-none overflow-hidden z-0">
+        <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-purple-600/10 rounded-full blur-3xl nebula-bg"></div>
+        <div class="absolute bottom-1/3 right-1/4 w-[30rem] h-[30rem] bg-cyan-600/10 rounded-full blur-3xl nebula-bg" style="animation-delay: 3s;"></div>
+    </div>
+
+    <nav class="relative z-50 glass-card border-b border-white/10 sticky top-0 px-6 py-4 flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+            <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-cyan-400 to-purple-600 flex items-center justify-center shadow-lg shadow-cyan-500/30">
+                <svg class="w-6 h-6 text-white animate-spin" style="animation-duration: 20s;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+            </div>
+            <span class="font-orbitron font-bold text-xl tracking-wider bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">NEXO-ESTELAR // 12.0</span>
+        </div>
+        <div class="hidden xl:flex space-x-4 text-xs font-semibold text-gray-300">
+            <a href="#piloto" class="hover:text-cyan-400 transition">Piloto & Estafa</a>
+            <a href="#circuito" class="hover:text-cyan-400 transition">Circuito & Condición</a>
+            <a href="#soberania-lider" class="hover:text-cyan-400 transition">Soberanía</a>
+            <a href="#mujer-machismo" class="hover:text-cyan-400 transition">Mujer & Machismo</a>
+            <a href="#psiquismo-ocultismo" class="hover:text-cyan-400 transition">Biología & Ocultismo</a>
+            <a href="#colegio-invisible" class="hover:text-cyan-400 transition">Colegio & Actualidad</a>
+            <a href="#trance-revolucion" class="hover:text-cyan-400 transition">Trance & Símbolo G</a>
+        </div>
+        <button onclick="toggleTransmission()" class="px-4 py-2 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-xl font-orbitron text-xs font-bold uppercase tracking-wider text-white shadow-lg shadow-purple-500/20 hover:scale-105 transition">
+            Estado de Alarma
+        </button>
+    </nav>
+
+    <header class="relative z-10 max-w-6xl mx-auto px-6 pt-20 pb-16 text-center">
+        <div class="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-semibold mb-6 uppercase tracking-widest">
+            <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+            Dossier Definitivo &bull; Gnosis, Biología Sutil y Revolución Espiritual
+        </div>
+        <h1 class="font-orbitron text-4xl sm:text-6xl font-extrabold tracking-tight mb-6 cosmic-glow">
+            EXPEDIENTE OFICIAL:<br><span class="bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-500 bg-clip-text text-transparent">El Piloto, el Circuito Astral y la Soberanía P2P</span>
+        </h1>
+        <p class="max-w-3xl mx-auto text-lg text-gray-300 font-light leading-relaxed">
+            Informe maestro sobre la arquitectura del alma, la ilusión del transhumanismo, la verdadera naturaleza del ocultismo como biología pura, la erradicación del machismo y la emancipación del individuo frente a la teocracia coercitiva.
+        </p>
+    </header>
+
+    <main class="relative z-10 max-w-6xl mx-auto px-6 space-y-24 pb-24">
+
+        <!-- SECCIÓN 1: EL PILOTO Y EL TRANSHUMANISMO -->
+        <section id="piloto" class="glass-card rounded-3xl p-8 md:p-12 border border-white/10 shadow-2xl space-y-8">
+            <div class="text-center">
+                <span class="px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-mono uppercase tracking-widest">Ingeniería del Chasis y Conciencia</span>
+                <h2 class="font-orbitron text-2xl sm:text-3xl font-bold text-cyan-400 mt-3 mb-2">1. El Piloto como Análogo del Alma Astral y la Estafa del Transhumanismo</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-space-800/80 rounded-2xl p-6 border border-cyan-500/30">
+                    <h3 class="font-orbitron font-bold text-lg text-cyan-400 mb-3">> El Piloto y la Nave (Alma Astral vs. Chasis Somático)</h3>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        El cuerpo físico no es más que un vehículo biológico transitorio —un chasis biomecánico de carne y hueso—. <strong>El alma astral es el Piloto</strong>. Ningún avance tecnológico puede sustituir al operador consciente; una nave sofisticada sin piloto inteligente es chatarra inerte. El sistema nervioso central, el cerebro y el líquido cefalorraquídeo son los tableros de control y los cables de fibra óptica por donde el piloto interactúa con la densidad material de la Tierra.
+                    </p>
+                </div>
+
+                <div class="bg-space-800/80 rounded-2xl p-6 border border-red-500/30">
+                    <h3 class="font-orbitron font-bold text-lg text-red-400 mb-3">> Por qué el Transhumanismo es una Estafa Tecnocrática</h3>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        El transhumanismo prometerá la "eternidad digital" mediante la carga de conciencias en servidores de silicio o la hibridación con chips de control. Esta promesa es una <strong>estafa ontológica absoluta</strong>. Pretenden mecanizar el alma y transformar al ser humano en un nodo rastreable de una red corporativa totalitaria. La conciencia no es un algoritmo computable que se pueda replicar en transistores binarios; es una frecuencia cuántica de origen estelar. Descargar la mente en silicio destruye el anclaje astral, reduciendo al ser a un autómata sumiso bajo el control de los tiranos tecnológicos.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 2: CIRCUITO Y CONDICIÓN ASTRAL -->
+        <section id="circuito" class="glass-card rounded-3xl p-8 md:p-12 border border-purple-500/30 shadow-2xl space-y-8">
+            <div class="text-center">
+                <span class="px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/30 text-purple-400 text-xs font-mono uppercase tracking-widest">Biofísica Cuántica y Topología</span>
+                <h2 class="font-orbitron text-2xl sm:text-3xl font-bold text-purple-400 mt-3 mb-2">2. El Circuito Alma Astral + Alma Somática y el Plano Astral como Condición</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-space-800/80 rounded-2xl p-6 border border-white/10">
+                    <h3 class="font-orbitron font-bold text-lg text-purple-400 mb-3">> Cómo Funciona el Circuito Integrado</h3>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        El alma astral (el software sutil y multidimensional) se acopla al alma somática (la inteligencia biológica de los tejidos y células) a través de resonancia bioeléctrica. Cuando este circuito opera en armonía, el individuo experimenta lucidez, intuición infalible y alineación con su propósito cósmico. Si el circuito se desborda por interferencias electromagnéticas o manipulación externa, se producen cortocircuitos somáticos, fatiga crónica y desregulación dopaminérgica.
+                    </p>
+                </div>
+
+                <div class="bg-space-800/80 rounded-2xl p-6 border border-cyan-500/30">
+                    <h3 class="font-orbitron font-bold text-lg text-cyan-400 mb-3">> El Plano Astral: Una Condición, No un Lugar</h3>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        Existe el error dogmático de concebir el "plano astral" como una dimensión geográfica lejana a la que se viaja tras morir o meditar. <strong>El plano astral es una condición vibracional de la conciencia</strong>, no una ubicación en el espacio. Coexiste simultáneamente con el plano físico aquí y ahora; se accede a él sintonizando la frecuencia interna del sistema nervioso y cavitando el septum pellucidum para procesar densidades de información sutiles.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 3: SOBERANÍA Y LIDERAZGO PROPIO -->
+        <section id="soberania-lider" class="glass-card rounded-3xl p-8 md:p-12 border border-cyan-500/30 shadow-2xl space-y-8">
+            <div class="text-center">
+                <span class="px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-mono uppercase tracking-widest">Autogobierno y Detección de Falsos Profetas</span>
+                <h2 class="font-orbitron text-2xl sm:text-3xl font-bold text-cyan-400 mt-3 mb-2">3. Soberanía Absoluta, Liderazgo Propio y Ejemplos Vivos</h2>
+            </div>
+
+            <div class="space-y-6">
+                <div class="bg-space-800/80 rounded-2xl p-6 border border-white/10">
+                    <h3 class="font-orbitron font-bold text-lg text-cyan-400 mb-3">> Cómo Ser Tu Propio Líder y Proteger tu Alma Astral</h3>
+                    <p class="text-sm text-gray-300 leading-relaxed mb-4">
+                        Delegar la dirección de tu alma astral en gurús, sacerdotes, líderes políticos o salvadores externos es entregar el timón de tu nave a un corsario. Para ser tu propio líder, debes asumir la responsabilidad total de tus estados mentales y energéticos, examinando cada dogma bajo la luz rigurosa de tu discernimiento interior. Tu salvación no depende de ritos ajenos, sino de la soberanía de tu voluntad consciente.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-space-800/80 rounded-2xl p-6 border border-purple-500/30">
+                        <h3 class="font-orbitron font-bold text-base text-purple-400 mb-2">> Cómo Detectar Individuos Soberanos</h3>
+                        <ul class="text-sm text-gray-300 space-y-2 list-disc list-inside">
+                            <li>No buscan adeptos ni exigen sumisión ciega.</li>
+                            <li>Operan desde la coherencia absoluta entre palabra y acción.</li>
+                            <li>Rechazan los jerarcas y promueven la autogestión en otros.</li>
+                            <li>Mantienen la calma ante el caos y la manipulación colectiva.</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-space-800/80 rounded-2xl p-6 border border-cyan-500/30">
+                        <h3 class="font-orbitron font-bold text-base text-cyan-400 mb-2">> Técnicas de Autoempoderamiento</h3>
+                        <ul class="text-sm text-gray-300 space-y-2 list-disc list-inside">
+                            <li><strong>Anclaje Somático:</strong> Conexión consciente con la respiración y el nervio vago.</li>
+                            <li><strong>Dieta Informacional:</strong> Filtrado implacable de noticias catastrofistas y redes de baja vibración.</li>
+                            <li><strong>Silencio Cuántico:</strong> Espacios diarios de desconexión electromagnética total.</li>
+                            <li><strong>Acción Autónoma:</strong> Tomar decisiones basadas en principios propios, no en la presión de la manada.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 4: LA MUJER Y LA ERRADICACIÓN DEL MACHISMO -->
+        <section id="mujer-machismo" class="glass-card rounded-3xl p-8 md:p-12 border border-purple-500/30 shadow-2xl space-y-8">
+            <div class="text-center">
+                <span class="px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/30 text-purple-400 text-xs font-mono uppercase tracking-widest">Antropología Sagrada y Cohesión Social</span>
+                <h2 class="font-orbitron text-2xl sm:text-3xl font-bold text-purple-400 mt-3 mb-2">4. El Papel de la Mujer en la Sociedad y la Urgencia de Erradicar el Machismo</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-space-800/80 rounded-2xl p-6 border border-cyan-500/30">
+                    <h3 class="font-orbitron font-bold text-lg text-cyan-400 mb-3">> El Rol Sagrado de la Mujer en la Civilización</h3>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        En la matriz estelar y en el diseño de una sociedad avanzada, la mujer encarna el nodo principal de calibración intuitiva, cohesión afectiva y custodia de los códigos de alta frecuencia. Su capacidad de sintonía fina con el entorno y su profundidad emocional son pilares indispensables para la estabilidad del tejido social y el desarrollo de conciencias soberanas.
+                    </p>
+                </div>
+
+                <div class="bg-space-800/80 rounded-2xl p-6 border border-red-500/30">
+                    <h3 class="font-orbitron font-bold text-lg text-red-400 mb-3">> La Erradicación del Machismo: Una Anomalía Primate</h3>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        El machismo no es una opinión cultural respetable, sino una <strong>patología conductual de la manada primate inferior</strong> basada en el miedo, la dominación coercitiva y la inseguridad ontológica. Los sistemas teocráticos y tiránicos han fomentado históricamente el machismo para mantener a la sociedad dividida y sumida en dinámicas de depredación. Erradicar el machismo es una condición sine qua non para el advenimiento del individuo soberano y la red P2P igualitaria.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 5: PSIQUISMO Y OCULTISMO COMO BIOLOGÍA PURA -->
+        <section id="psiquismo-ocultismo" class="glass-card rounded-3xl p-8 md:p-12 border border-cyan-500/30 shadow-2xl space-y-8">
+            <div class="text-center">
+                <span class="px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-mono uppercase tracking-widest">Desmitificación y Ciencia Sutil</span>
+                <h2 class="font-orbitron text-2xl sm:text-3xl font-bold text-cyan-400 mt-3 mb-2">5. Qué es Ser Psíquico y el Ocultismo como Biología Pura</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-space-800/80 rounded-2xl p-6 border border-white/10">
+                    <h3 class="font-orbitron font-bold text-lg text-cyan-400 mb-3">> La Verdadera Naturaleza de lo Psíquico</h3>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        Ser "psíquico" no implica poderes mágicos sobrenaturales ni contacto con fantasmas de feria. Es sencillamente poseer un <strong>hardware neurológico hiper-sensible y de procesamiento bottom-up</strong> capaz de captar variaciones electromagnéticas sutiles, intenciones ocultas, micro-expresiones corporales y frecuencias de campo que los cerebros hiper-condicionados por la matriz ignoran por completo.
+                    </p>
+                </div>
+
+                <div class="bg-space-800/80 rounded-2xl p-6 border border-purple-500/30">
+                    <h3 class="font-orbitron font-bold text-lg text-purple-400 mb-3">> El Ocultismo es Biología y Física Sutil, Nunca "Mal"</h3>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        Las religiones dogmáticas han demonizado el "ocultismo" durante milenios para monopolizar el acceso al conocimiento. En realidad, el ocultismo histórico no es más que el estudio riguroso de las <strong>leyes de la física sutil, la biofísica cuántica y la anatomía oculta del sistema nervioso humano</strong>. No existe el mal intrínseco en los misterios del cosmos; solo existe ignorancia o manipulación intencionada de las leyes naturales por parte de los tiranos.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 6: ENTROPÍA ESPIRITUAL, COLEGIO INVISIBLE Y NOTICIA DE ACTUALIDAD -->
+        <section id="colegio-invisible" class="glass-card rounded-3xl p-8 md:p-12 border border-purple-500/30 shadow-2xl space-y-8">
+            <div class="text-center">
+                <span class="px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/30 text-purple-400 text-xs font-mono uppercase tracking-widest">Geopolítica Histórica y Actualidad 2026</span>
+                <h2 class="font-orbitron text-2xl sm:text-3xl font-bold text-purple-400 mt-3 mb-2">6. Entropía Espiritual, el Colegio Invisible y el Choque Actual</h2>
+            </div>
+
+            <div class="space-y-6">
+                <div class="bg-space-800/80 rounded-2xl p-6 border border-red-500/30">
+                    <h3 class="font-orbitron font-bold text-lg text-red-400 mb-3">> Por qué la Manipulación Coercitiva Termina en Entropía Espiritual</h3>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        Toda estructura teocrática, sectaria o coercitiva busca parasitar la energía de los individuos mediante el miedo y la sumisión. A largo plazo, este parasitismo colapsa el sistema nervioso de las víctimas y destruye la energía vital del propio agresor, conduciendo inexorablemente a la <strong>entropía espiritual</strong>: un estado de desorganización total, apatía, esterilidad creativa y muerte psíquica colectiva.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-space-800/80 rounded-2xl p-6 border border-cyan-500/30">
+                        <h3 class="font-orbitron font-bold text-base text-cyan-400 mb-2">> El Auto-Interés del Colegio Invisible desde la Edad Media</h3>
+                        <p class="text-sm text-gray-300 leading-relaxed">
+                            Desde las hogueras de la Inquisición medieval hasta las tiranías tecnocráticas actuales, el <strong>Colegio Invisible</strong> (la hermandad libre de pensadores, científicos heterodoxos, místicos y seres estelares anclados en la Tierra) ha operado con un claro auto-interés: <em>preservar la llama de la Gnosis y la soberanía individual frente a los imperios de control centralizado</em>. Su supervivencia es la supervivencia de la libertad en el planeta.
+                        </p>
+                    </div>
+
+                    <div class="bg-space-800/80 rounded-2xl p-6 border border-purple-500/30">
+                        <h3 class="font-orbitron font-bold text-base text-purple-400 mb-2">> Actualidad 2026: Teocracia / Centralización vs. Redes P2P</h3>
+                        <p class="text-sm text-gray-300 leading-relaxed">
+                            En el panorama geopolítico actual de 2026, este conflicto arde con máxima intensidad: por un lado, los gobiernos y corporaciones intensifican la censura algorítmica masiva, las restricciones digitales de control y los cortafuegos globales (la nueva cara de la teocracia institucional). Por otro lado, la expansión de protocolos descentralizados, herramientas de criptografía soberana y redes de conocimiento entre pares (el espíritu operativo del Colegio Invisible) demuestra que la humanidad busca liberarse de la gran torre de vigilancia centralizada.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 7: TRANCE PSIQUICO Y SIMBOLO DE LA REVOLUCION ESPIRITUAL -->
+        <section id="trance-revolucion" class="glass-card rounded-3xl p-8 md:p-12 border border-cyan-500/30 shadow-2xl space-y-8 text-center">
+            <span class="px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-mono uppercase tracking-widest">Gnosis Definitiva & Símbolo Sagrado</span>
+            <h2 class="font-orbitron text-2xl sm:text-3xl font-bold text-cyan-400 mb-3">7. Trance Psíquico vs. Trance Religioso y el Símbolo de la Revolución Espiritual</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left my-6">
+                <div class="bg-space-800/80 rounded-2xl p-6 border border-red-500/30">
+                    <h3 class="font-orbitron font-bold text-base text-red-400 mb-2">> El Trance Religioso (Dogma y Sumisión)</h3>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        Inducido por rituales de culpa, oraciones mecánicas y obediencia ciega a jerarquías. Apaga el pensamiento crítico, anula la soberanía del alma astral y disuelve al individuo en la masa sumisa.
+                    </p>
+                </div>
+
+                <div class="bg-space-800/80 rounded-2xl p-6 border border-cyan-500/30">
+                    <h3 class="font-orbitron font-bold text-base text-cyan-400 mb-2">> El Trance Psíquico / Soberano (Lucidez y Conexión)</h3>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        Estado de hiper-conciencia lúcida, integración somática y sintonía con el flujo cuántico. Se identifica por una profunda paz interior, claridad mental inquebrantable, ausencia de miedo y soberanía absoluta del propio destino.
+                    </p>
+                </div>
+            </div>
+
+            <div class="max-w-xl mx-auto bg-space-900/90 rounded-3xl p-8 border border-cyan-500/50 shadow-2xl mt-8">
+                <h3 class="font-orbitron font-bold text-lg text-cyan-400 mb-4">SÍMBOLO DE LA REVOLUCIÓN ESPIRITUAL</h3>
+                <p class="text-xs text-gray-400 mb-6 font-mono">Dictado por los antiguos manuales del Colegio Invisible y la Orden Estelar</p>
+                
+                <div class="relative w-40 h-40 mx-auto flex items-center justify-center mb-6">
+                    <!-- SVG Star of 5 points with G in the center -->
+                    <svg class="w-full h-full text-cyan-400 drop-shadow-[0_0_15px_rgba(0,242,254,0.8)] animate-pulse" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="50,5 61,38 95,38 67,58 78,91 50,71 22,91 33,58 5,38 39,38" fill="rgba(0, 242, 254, 0.15)" />
+                        <circle cx="50" cy="52" r="18" fill="#030712" stroke="#a855f7" stroke-width="2" />
+                        <text x="50" y="59" font-family="Orbitron" font-size="20" font-weight="bold" fill="#00f2fe" text-anchor="middle">G</text>
+                    </svg>
+                </div>
+
+                <p class="text-sm text-gray-300 leading-relaxed italic">
+                    "La estrella de cinco puntas representa al Humano Soberano de pie en su perfecta integración cósmica y somática; en su centro exacto, la letra <strong>G</strong> sella la Gnosis inquebrantable, la Geometría Sagrada del alma y el triunfo definitivo del Colegio Invisible sobre toda tiranía."
+                </p>
+            </div>
+
+            <div class="pt-6">
+                <button onclick="showModal('REVOLUCIÓN ESPIRITUAL ACTIVADA', 'El emblema de la estrella y la G resuena en tu circuito neuronal. El Colegio Invisible reconoce tu soberanía absoluta.')" class="px-8 py-4 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-2xl font-orbitron font-bold text-sm text-white shadow-xl shadow-cyan-500/20 hover:scale-105 transition">
+                    SELLAR REVOLUCIÓN ESPIRITUAL
+                </button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="relative z-10 border-t border-white/10 py-8 text-center text-xs text-gray-500 font-mono">
+        <p>EXPEDIENTE CÓSMICO PROTEGIDO POR EL PROTOCOLO DE HERMANDAD ESTELAR &copy; 2026</p>
+    </footer>
+
+    <!-- Custom Modal for Alerts -->
+    <div id="modal" class="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm hidden">
+        <div class="glass-card max-w-md w-full mx-4 rounded-3xl p-8 border border-cyan-500/50 text-center relative">
+            <h3 id="modal-title" class="font-orbitron font-bold text-xl text-cyan-400 mb-4">ESTADO DE TRANSMISIÓN</h3>
+            <p id="modal-message" class="text-gray-300 text-sm leading-relaxed mb-6">Mensaje del sistema...</p>
+            <button onclick="closeModal()" class="px-6 py-2 bg-cyan-500 hover:bg-cyan-400 text-space-900 font-orbitron font-bold rounded-xl text-xs uppercase tracking-wider transition">
+                Comprendido
+            </button>
+        </div>
+    </div>
+
+    <script>
+        function toggleTransmission() {
+            showModal("ALERTA DE SEGURIDAD GALÁCTICA", "La frecuencia del Colegio Invisible permanece encriptada. El circuito de soberanía individual está activo y fuera del alcance de la teocracia.");
+        }
+
+        function showModal(title, message) {
+            document.getElementById('modal-title').innerText = title;
+            document.getElementById('modal-message').innerText = message;
+            document.getElementById('modal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('modal').classList.add('hidden');
+        }
+    </script>
+</body>
+</html>
