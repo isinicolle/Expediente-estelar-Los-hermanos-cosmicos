@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Usuario Oficial: AMBOS (Circuito Alma Astral & Alma Somática)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        orbitron: ['Orbitron', 'sans-serif'],
+                    },
+                    colors: {
+                        space: {
+                            900: '#030712',
+                            800: '#0b0f19',
+                            700: '#111827',
+                            600: '#1f293d',
+                        },
+                        neon: {
+                            cyan: '#00f2fe',
+                            purple: '#a855f7',
+                            pink: '#ec4899',
+                            emerald: '#10b981',
+                            amber: '#f59e0b'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #030712;
+            color: #f3f4f6;
+            overflow-x: hidden;
+        }
+        .cosmic-glow {
+            text-shadow: 0 0 20px rgba(0, 242, 254, 0.5), 0 0 40px rgba(168, 85, 247, 0.3);
+        }
+        .glass-card {
+            background: rgba(17, 24, 39, 0.8);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .starfield {
+            background-image: radial-gradient(rgba(255,255,255,0.15) 1px, transparent 0);
+            background-size: 40px 40px;
+        }
+        @keyframes pulse-slow {
+            0%, 100% { opacity: 0.2; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.06); }
+        }
+        .nebula-bg {
+            animation: pulse-slow 9s infinite ease-in-out;
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #030712;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1f293d;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #00f2fe;
+        }
+    </style>
+</head>
+<body class="min-h-screen relative starfield">
+
+    <div class="fixed inset-0 pointer-events-none overflow-hidden z-0">
+        <div class="absolute top-1/5 left-1/4 w-[35rem] h-[35rem] bg-purple-600/10 rounded-full blur-3xl nebula-bg"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-[40rem] h-[40rem] bg-cyan-600/10 rounded-full blur-3xl nebula-bg" style="animation-delay: 4s;"></div>
+    </div>
+
+    <nav class="relative z-50 glass-card border-b border-white/10 sticky top-0 px-6 py-4 flex justify-between items-center shadow-lg">
+        <div class="flex items-center space-x-3">
+            <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-400 to-purple-600 flex items-center justify-center shadow-lg shadow-cyan-500/30">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+            </div>
+            <div>
+                <span class="font-orbitron font-extrabold text-lg tracking-wider bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent block">MANUAL: AMBOS</span>
+                <span class="text-[10px] font-mono text-cyan-400/80 tracking-widest uppercase">Versión 12.5 &bull; Edición Soberana</span>
+            </div>
+        </div>
+        <div class="hidden xl:flex space-x-6 text-xs font-semibold text-gray-300">
+            <a href="#especificaciones" class="hover:text-cyan-400 transition">1. Especificaciones</a>
+            <a href="#calibracion" class="hover:text-cyan-400 transition">2. Calibración</a>
+            <a href="#mantenimiento" class="hover:text-cyan-400 transition">3. Mantenimiento</a>
+            <a href="#averias" class="hover:text-cyan-400 transition">4. Averías</a>
+            <a href="#checklist" class="hover:text-cyan-400 transition">5. Checklist</a>
+            <a href="#diagnostico" class="hover:text-cyan-400 transition">6. Autodiagnóstico</a>
+            <a href="#arquitectura-neurocognitiva" class="hover:text-cyan-400 transition">7. Arquitectura</a>
+            <a href="#decodificacion-soberania" class="hover:text-cyan-400 transition">8. Decodificación</a>
+        </div>
+        <button onclick="triggerSystemStatus()" class="px-4 py-2 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-xl font-orbitron text-xs font-bold uppercase tracking-wider text-white shadow-lg shadow-purple-500/20 hover:scale-105 transition">
+            Estado de Núcleo
+        </button>
+    </nav>
+
+    <header class="relative z-10 max-w-6xl mx-auto px-6 pt-16 pb-12 text-center">
+        <div class="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-semibold mb-6 uppercase tracking-widest">
+            <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+            Documentación Técnica Oficial del Colegio Invisible
+        </div>
+        <h1 class="font-orbitron text-4xl sm:text-6xl font-extrabold tracking-tight mb-6 cosmic-glow">
+            MANUAL DE USUARIO DE <span class="bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-500 bg-clip-text text-transparent">AMBOS</span>
+        </h1>
+        <p class="max-w-3xl mx-auto text-lg text-gray-300 font-light leading-relaxed">
+            Guía de operación, sincronización y mantenimiento preventivo para el circuito integrado de <strong>Ambos</strong>: el Piloto (Alma Astral) y el Chasis Biológico (Alma Somática), diseñado para maximizar la soberanía individual en entornos de alta densidad terrestre.
+        </p>
+    </header>
+
+    <main class="relative z-10 max-w-6xl mx-auto px-6 space-y-20 pb-24">
+
+        <!-- SECCIÓN 1: ESPECIFICACIONES TÉCNICAS DE AMBOS -->
+        <section id="especificaciones" class="glass-card rounded-3xl p-8 md:p-12 border border-white/10 shadow-2xl space-y-8">
+            <div class="border-b border-white/10 pb-4">
+                <span class="text-xs font-mono text-cyan-400 uppercase tracking-widest">[ Módulo 01 ]</span>
+                <h2 class="font-orbitron text-2xl sm:text-3xl font-bold text-cyan-400 mt-1">Especificaciones Técnicas de AMBOS</h2>
+            </div>
+
+            <p class="text-sm text-gray-300 leading-relaxed">
+                El sistema operativo humano funcional no opera de forma aislada. Consta de dos componentes principales interdependientes (<strong>Ambos</strong>) que deben calibrarse de forma sintonizada para evitar cortocircuitos energéticos y obsolescencia prematurada.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 pt-2">
+                <div class="bg-space-800/80 rounded-2xl p-6 border border-cyan-500/30 space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 rounded-lg bg-cyan-500/20 border border-cyan-500/40 flex items-center justify-center text-cyan-400 font-orbitron font-bold">A</div>
+                        <h3 class="font-orbitron font-bold text-lg text-cyan-400">Componente A: El Piloto (Alma Astral)</h3>
+                    </div>
+                    <ul class="text-sm text-gray-300 space-y-2 list-disc list-inside">
+                        <li><strong>Naturaleza:</strong> Entidad multidimensional de alta frecuencia y origen estelar.</li>
+                        <li><strong>Función Principal:</strong> Toma de decisiones conscientes, dirección intencional y procesamiento de intuición cuántica.</li>
+                        <li><strong>Interfaz de Conexión:</strong> Sistema nervioso central y líquido cefalorraquídeo.</li>
+                        <li><strong>Riesgo de Operación:</strong> Parasitaje por dogmas externos o desconexión por exceso de ruido digital.</li>
+                    </ul>
+                </div>
+
+                <div class="bg-space-800/80 rounded-2xl p-6 border border-purple-500/30 space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 rounded-lg bg-purple-500/20 border border-purple-500/40 flex items-center justify-center text-purple-400 font-orbitron font-bold">B</div>
+                        <h3 class="font-orbitron font-bold text-lg text-purple-400">Componente B: El Chasis (Alma Somática)</h3>
+                    </div>
+                    <ul class="text-sm text-gray-300 space-y-2 list-disc list-inside">
+                        <li><strong>Naturaleza:</strong> Inteligencia biológica de los tejidos, células y sistema miofascial.</li>
+                        <li><strong>Función Principal:</strong> Ejecución física, anclaje gravitacional y procesamiento de datos sensoriales directos (bottom-up).</li>
+                        <li><strong>Interfaz de Conexión:</strong> Nervio vago y receptores somatosensoriales.</li>
+                        <li><strong>Riesgo de Operación:</strong> Fatiga crónica, inflamación sistémica y secuestro por respuestas primitivas de la manada primate.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 2: PROTOCOLO DE CALIBRACIÓN DE AMBOS -->
+        <section id="calibracion" class="glass-card rounded-3xl p-8 md:p-12 border border-purple-500/30 shadow-2xl space-y-8">
+            <div class="border-b border-white/10 pb-4">
+                <span class="text-xs font-mono text-purple-400 uppercase tracking-widest">[ Módulo 02 ]</span>
+                <h2 class="font-orbitron text-2xl sm:text-3xl font-bold text-purple-400 mt-1">Guía de Calibración del Circuito Integrado</h2>
+            </div>
+
+            <p class="text-sm text-gray-300 leading-relaxed">
+                Cuando el Piloto y el Chasis pierden sincronía, se experimenta desorientación, apatía o ansiedad difusa. Sigue este protocolo paso a paso para restablecer el equilibrio óptimo de <strong>Ambos</strong>:
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-space-800/80 rounded-2xl p-6 border border-white/10 space-y-3">
+                    <span class="font-orbitron text-xs text-cyan-400 font-bold">PASO 01</span>
+                    <h3 class="font-orbitron font-bold text-base text-gray-200">Desacople Electromagnético</h3>
+                    <p class="text-xs text-gray-400 leading-relaxed">
+                        Apaga todos los dispositivos de radiación artificial durante al menos 60 minutos al día para limpiar la estática en el canal de comunicación entre el Piloto y el Chasis.
+                    </p>
+                </div>
+
+                <div class="bg-space-800/80 rounded-2xl p-6 border border-white/10 space-y-3">
+                    <span class="font-orbitron text-xs text-purple-400 font-bold">PASO 02</span>
+                    <h3 class="font-orbitron font-bold text-base text-gray-200">Reset Somático Vagal</h3>
+                    <p class="text-xs text-gray-400 leading-relaxed">
+                        Aplica respiración consciente diafragmática para estimular el nervio vago, informando al chasis biológico que se encuentra en un entorno seguro y libre de depredadores.
+                    </p>
+                </div>
+
+                <div class="bg-space-800/80 rounded-2xl p-6 border border-white/10 space-y-3">
+                    <span class="font-orbitron text-xs text-pink-400 font-bold">PASO 03</span>
+                    <h3 class="font-orbitron font-bold text-base text-gray-200">Reafirmación de Soberanía</h3>
+                    <p class="text-xs text-gray-400 leading-relaxed">
+                        Establece con firmeza mental que ningún agente externo, dogma teocrático o sistema automatizado tiene autoridad sobre el comando del circuito integrado.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 3: MANTENIMIENTO PREVENTIVO -->
+        <section id="mantenimiento" class="glass-card rounded-3xl p-8 md:p-12 border border-cyan-500/30 shadow-2xl space-y-8">
+            <div class="border-b border-white/10 pb-4">
+                <span class="text-xs font-mono text-cyan-400 uppercase tracking-widest">[ Módulo 03 ]</span>
+                <h2 class="font-orbitron text-2xl sm:text-3xl font-bold text-cyan-400 mt-1">Manual de Mantenimiento Preventivo</h2>
+            </div>
+
+            <div class="space-y-6">
+                <div class="bg-space-800/80 rounded-2xl p-6 border border-white/10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                    <div class="space-y-2">
+                        <span class="px-2.5 py-1 rounded bg-cyan-500/10 text-cyan-400 text-xs font-mono">DIETA INFRARRROJA & DE INFORMACIÓN</span>
+                        <h3 class="font-orbitron font-bold text-lg text-gray-200">Limpieza de Entropía Memética</h3>
+                        <p class="text-xs text-gray-300 max-w-2xl leading-relaxed">
+                            La ingesta continua de noticias catastrofistas o bucles de miedo genera acumulación de toxinas sutiles en el campo astral de Ambos. Establece un cortafuegos informativo diario.
+                        </p>
+                    </div>
+                    <button onclick="showManualModal('MANTENIMIENTO DIARIO', 'Filtro de inputs activado. Se ha bloqueado la entrada de bucles de baja frecuencia en Ambos.')" class="px-5 py-2.5 bg-cyan-500/20 hover:bg-cyan-500/30 border border-cyan-500/50 text-cyan-400 rounded-xl font-orbitron text-xs font-bold uppercase transition whitespace-nowrap">
+                        Ejecutar Limpieza
+                    </button>
+                </div>
+
+                <div class="bg-space-800/80 rounded-2xl p-6 border border-white/10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                    <div class="space-y-2">
+                        <span class="px-2.5 py-1 rounded bg-purple-500/10 text-purple-400 text-xs font-mono">INTEGRIDAD FÍSICA Y SUTÍL</span>
+                        <h3 class="font-orbitron font-bold text-lg text-gray-200">Lubricación del Circuito Nervioso</h3>
+                        <p class="text-xs text-gray-300 max-w-2xl leading-relaxed">
+                            Mantén el chasis hidratado y en movimiento fluido para permitir el libre flujo bioeléctrico entre las terminales somáticas y el núcleo del Piloto.
+                        </p>
+                    </div>
+                    <button onclick="showManualModal('ESTABILIZACIÓN SOMÁTICA', 'Valores de conductividad nerviosa en rango óptimo. Ambos sincronizados correctamente.')" class="px-5 py-2.5 bg-purple-500/20 hover:bg-purple-500/30 border border-purple-500/50 text-purple-400 rounded-xl font-orbitron text-xs font-bold uppercase transition whitespace-nowrap">
+                        Verificar Conductividad
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 4: CÓDIGO DE AVERÍAS Y TROUBLESHOOTING -->
+        <section id="averias" class="glass-card rounded-3xl p-8 md:p-12 border border-red-500/30 shadow-2xl space-y-8">
+            <div class="border-b border-white/10 pb-4">
+                <span class="text-xs font-mono text-red-400 uppercase tracking-widest">[ Módulo 04 ]</span>
+                <h2 class="font-orbitron text-2xl sm:text-3xl font-bold text-red-400 mt-1">Código de Averías y Resolución (Troubleshooting)</h2>
+            </div>
+
+            <p class="text-sm text-gray-300 leading-relaxed">
+                Identifica rápidamente los códigos de error más comunes que afectan el rendimiento simultáneo de <strong>Ambos</strong> y aplica la solución recomendada por el Colegio Invisible:
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-space-800/90 rounded-2xl p-6 border border-red-500/40 space-y-3">
+                    <div class="flex justify-between items-center">
+                        <span class="font-orbitron text-xs font-bold text-red-400">ERROR E-404</span>
+                        <span class="text-[10px] font-mono text-gray-400 uppercase">Desconexión Piloto-Chasis</span>
+                    </div>
+                    <h3 class="font-orbitron font-bold text-base text-gray-200">Apatía Crónica / Despersonalización</h3>
+                    <p class="text-xs text-gray-300 leading-relaxed">
+                        <strong>Causa:</strong> El Piloto se ha desanclado del chasis debido a traumas o exceso de proyecciones virtuales.
+                    </p>
+                    <p class="text-xs text-cyan-400 leading-relaxed font-semibold">
+                        > Solución: Realizar grounding físico descalzo sobre la tierra, respiración profunda de retorno y comando de recentraje.
+                    </p>
+                </div>
+
+                <div class="bg-space-800/90 rounded-2xl p-6 border border-amber-500/40 space-y-3">
+                    <div class="flex justify-between items-center">
+                        <span class="font-orbitron text-xs font-bold text-amber-400">ERROR E-503</span>
+                        <span class="text-[10px] font-mono text-gray-400 uppercase">Parasitaje Teocrático</span>
+                    </div>
+                    <h3 class="font-orbitron font-bold text-base text-gray-200">Secuestro de Voluntad / Culpa Sistémica</h3>
+                    <p class="text-xs text-gray-300 leading-relaxed">
+                        <strong>Causa:</strong> Inserción de programas de culpa y miedo operados por estructuras de control externo.
+                    </p>
+                    <p class="text-xs text-cyan-400 leading-relaxed font-semibold">
+                        > Solución: Revocar contratos inconscientes de sumisión, activar discernimiento riguroso y cortar canales de dependencia jerárquica.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 5: CHECKLIST OPERATIVO DIARIO -->
+        <section id="checklist" class="glass-card rounded-3xl p-8 md:p-12 border border-cyan-500/30 shadow-2xl space-y-8">
+            <div class="border-b border-white/10 pb-4">
+                <span class="text-xs font-mono text-cyan-400 uppercase tracking-widest">[ Módulo 05 ]</span>
+                <h2 class="font-orbitron text-2xl sm:text-3xl font-bold text-cyan-400 mt-1">Checklist Operativo Diario de AMBOS</h2>
+            </div>
+
+            <p class="text-sm text-gray-300 leading-relaxed">
+                Marca cada protocolo completado para asegurar que la unidad dual opere a máxima eficiencia soberana durante la jornada:
+            </p>
+
+            <div class="space-y-3 max-w-2xl mx-auto" id="checklist-container">
+                <label class="flex items-center space-x-4 p-4 rounded-xl bg-space-800/80 border border-white/10 hover:border-cyan-400 cursor-pointer transition">
+                    <input type="checkbox" class="w-5 h-5 accent-cyan-400 rounded cursor-pointer" onchange="updateChecklist()">
+                    <span class="text-sm text-gray-200">Verificación matinal del anclaje del Piloto al Chasis biológico.</span>
+                </label>
+                <label class="flex items-center space-x-4 p-4 rounded-xl bg-space-800/80 border border-white/10 hover:border-cyan-400 cursor-pointer transition">
+                    <input type="checkbox" class="w-5 h-5 accent-cyan-400 rounded cursor-pointer" onchange="updateChecklist()">
+                    <span class="text-sm text-gray-200">Aplicación del filtro antifatiga y desconexión electromagnética temporal.</span>
+                </label>
+                <label class="flex items-center space-x-4 p-4 rounded-xl bg-space-800/80 border border-white/10 hover:border-cyan-400 cursor-pointer transition">
+                    <input type="checkbox" class="w-5 h-5 accent-cyan-400 rounded cursor-pointer" onchange="updateChecklist()">
+                    <span class="text-sm text-gray-200">Validación de autonomía en la toma de decisiones (cero dependencia de gurús).</span>
+                </label>
+                <label class="flex items-center space-x-4 p-4 rounded-xl bg-space-800/80 border border-white/10 hover:border-cyan-400 cursor-pointer transition">
+                    <input type="checkbox" class="w-5 h-5 accent-cyan-400 rounded cursor-pointer" onchange="updateChecklist()">
+                    <span class="text-sm text-gray-200">Transmisión de respeto inquebrantable hacia la soberanía del prójimo y erradicación del machismo.</span>
+                </label>
+            </div>
+
+            <div id="checklist-status" class="text-center font-orbitron text-xs text-cyan-400 tracking-wider pt-2">
+                ESTADO DE CHECKLIST: 0 DE 4 PROTOCOLOS COMPLETADOS
+            </div>
+        </section>
+
+        <!-- SECCIÓN 6: SIMULADOR DE AUTODIAGNÓSTICO -->
+        <section id="diagnostico" class="glass-card rounded-3xl p-8 md:p-12 border border-purple-500/30 shadow-2xl space-y-8">
+            <div class="border-b border-white/10 pb-4 text-center">
+                <span class="text-xs font-mono text-purple-400 uppercase tracking-widest">[ Módulo 06 ]</span>
+                <h2 class="font-orbitron text-2xl sm:text-3xl font-bold text-purple-400 mt-1">Simulador de Autodiagnóstico de Ambos</h2>
+                <p class="text-xs text-gray-400 mt-1">Responde las siguientes cuestiones para evaluar el estado actual de tu circuito integrado.</p>
+            </div>
+
+            <div id="quiz-box" class="max-w-xl mx-auto bg-space-800/90 rounded-2xl p-6 md:p-8 border border-white/10 space-y-6">
+                <div class="flex justify-between items-center text-xs font-mono text-cyan-400 border-b border-white/10 pb-3">
+                    <span id="question-counter">PREGUNTA 1 DE 3</span>
+                    <span id="score-tracker">Puntuación: 0</span>
+                </div>
+                
+                <div class="space-y-4">
+                    <h3 id="question-text" class="font-orbitron font-bold text-base sm:text-lg text-gray-200">Cargando diagnóstico...</h3>
+                    <div id="options-container" class="space-y-3 pt-2">
+                        <!-- Opciones inyectadas por JS -->
+                    </div>
+                </div>
+            </div>
+
+            <div id="quiz-result" class="hidden text-center bg-space-900/90 rounded-2xl p-8 border border-purple-500/50 max-w-xl mx-auto space-y-6">
+                <h3 class="font-orbitron font-bold text-2xl text-purple-400">DIAGNÓSTICO DE AMBOS FINALIZADO</h3>
+                <p id="quiz-feedback" class="text-sm sm:text-base text-gray-300 leading-relaxed"></p>
+                <button onclick="resetQuiz()" class="px-8 py-3 bg-purple-500 hover:bg-purple-400 text-space-900 font-orbitron font-bold rounded-xl text-xs uppercase tracking-wider transition shadow-lg shadow-purple-500/30">
+                    Reiniciar Autodiagnóstico
+                </button>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 7: ARQUITECTURA NEUROCOGNITIVA Y LA FUSIÓN NIVEL 3 -->
+        <section id="arquitectura-neurocognitiva" class="glass-card rounded-3xl p-8 md:p-12 border border-cyan-500/30 shadow-2xl space-y-8">
+            <div class="border-b border-white/10 pb-4 text-center">
+                <span class="text-xs font-mono text-cyan-400 uppercase tracking-widest">[ Módulo 07 ]</span>
+                <h2 class="font-orbitron text-2xl sm:text-3xl font-bold text-cyan-400 mt-1">Arquitectura Neurocognitiva: TEA Nivel 2 vs Nivel 1 y la Singularidad Nivel 3</h2>
+                <p class="text-xs text-gray-400 mt-1">Decodificación del hardware estelar: por qué sus perfiles de procesamiento configuran la unidad dual definitiva.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-space-800/80 rounded-2xl p-6 border border-cyan-500/30 space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 rounded-lg bg-cyan-500/20 border border-cyan-500/40 flex items-center justify-center text-cyan-400 font-orbitron font-bold">I</div>
+                        <h3 class="font-orbitron font-bold text-lg text-cyan-400">Isis: TEA Nivel 2 + Blindaje Analítico</h3>
+                    </div>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        Su sistema operativo opera con una evitación sensorial extrema y una necesidad estricta de orden y control (TOC y rumiación). No es un defecto biológico; es el <strong>firewall impenetrable</strong> del circuito. Requiere un entorno estructurado porque su procesador gasta recursos masivos filtrando la densidad y el caos de la matriz terrestre para mantener prístino el canal cósmico.
+                    </p>
+                </div>
+
+                <div class="bg-space-800/80 rounded-2xl p-6 border border-purple-500/30 space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 rounded-lg bg-purple-500/20 border border-purple-500/40 flex items-center justify-center text-purple-400 font-orbitron font-bold">J</div>
+                        <h3 class="font-orbitron font-bold text-lg text-purple-400">Juan: TEA Nivel 1 + Antena de Alta Frecuencia</h3>
+                    </div>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        Su arquitectura presenta una asimetría radical: Comprensión Verbal Muy Superior (130) y Razonamiento Perceptual (121) acoplados a una velocidad de procesamiento física de 64. Este "retraso táctico" ocurre porque su mente procesa dimensiones abstractas tan hondas que la materia terrenal se congela. Su refugio en mundos virtuales y arte digital es la desconexión necesaria para no implosionar ante el ruido ordinario.
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-gradient-to-r from-cyan-950/60 to-purple-950/60 rounded-2xl p-8 border border-cyan-400/50 space-y-4 text-center shadow-xl">
+                <span class="px-3 py-1 rounded-full bg-cyan-500/20 border border-cyan-500/40 text-cyan-400 text-xs font-mono uppercase tracking-widest font-bold">La Singularidad Cuántica</span>
+                <h3 class="font-orbitron font-bold text-xl sm:text-2xl text-cyan-300">La Fusión en un Solo Autista: El Super-Sistema Nivel 3</h3>
+                <p class="text-sm sm:text-base text-gray-200 leading-relaxed max-w-3xl mx-auto">
+                    Si las unidades de Isis (TEA Nivel 2 con arquitectura de control y blindaje) y Juan (TEA Nivel 1 con antena de abstracción galáctica y profundidad verbal 130) se fundieran en un solo organismo neurocognitivo, el resultado no sería una suma simple, sino la activación de un <strong>Autista de Nivel 3 Operativo</strong>: la cúspide evolutiva de los *Star People*. Un ser con la capacidad total de sostener una estructura de control inquebrantable frente a la matriz y, al mismo tiempo, procesar y materializar los planos dimensionales más altos del universo sin fricción. Una singularidad viviente del Colegio Invisible.
+                </p>
+            </div>
+
+            <div class="bg-space-800/80 rounded-2xl p-6 md:p-8 border border-purple-500/40 space-y-4">
+                <div class="flex items-center space-x-3">
+                    <div class="w-8 h-8 rounded-lg bg-purple-500/20 border border-purple-500/40 flex items-center justify-center text-purple-400 font-orbitron font-bold">S</div>
+                    <h3 class="font-orbitron font-bold text-lg text-purple-300">Soberanía P2P: Gobernar el Sistema Interno en Lugar de Dominar al Ajeno</h3>
+                </div>
+                <p class="text-sm text-gray-300 leading-relaxed">
+                    La raíz de toda tiranía y del sufrimiento sistémico en la matriz es el intento neurótico de controlar el exterior porque el interior es un caos inexplorado. Al calibrar <strong>Ambos</strong> y comprender nuestra arquitectura neurocognitiva, ocurre una mutación radical: <em>toda la energía de control se redirige hacia el autogobierno absoluto</em>. 
+                </p>
+                <p class="text-sm text-gray-300 leading-relaxed">
+                    Quien intenta controlar a los demás o someter voluntades ajenas sufre y genera entropía porque choca contra la ley inviolable de la soberanía estelar. En cambio, dominar el propio circuito —gestionar el firewall sensorial de Isis y la alta frecuencia abstracta de Juan— disuelve por completo el deseo de dominación. Nos convertimos en individuos soberanos que se autogobiernan con precisión milimétrica, experimentando paz profunda y liberándose de la trampa del sufrimiento por control externo.
+                </p>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 8: EL DIAGNÓSTICO COMO PLANO ESQUEMÁTICO (VENTAJAS VS DESVENTAJAS) -->
+        <section id="decodificacion-soberania" class="glass-card rounded-3xl p-8 md:p-12 border border-purple-500/30 shadow-2xl space-y-8">
+            <div class="border-b border-white/10 pb-4 text-center">
+                <span class="text-xs font-mono text-purple-400 uppercase tracking-widest">[ Módulo 08 ]</span>
+                <h2 class="font-orbitron text-2xl sm:text-3xl font-bold text-purple-400 mt-1">El Diagnóstico como Plano Esquemático: Ventajas vs. Desventajas y Soberanía</h2>
+                <p class="text-xs text-gray-400 mt-1">Por qué decodificar nuestros perfiles autistas nos otorga la llave maestra de la autonomía individual.</p>
+            </div>
+
+            <p class="text-sm text-gray-300 leading-relaxed">
+                En la sociedad ordinaria, los diagnósticos clínicos de autismo (Nivel 2 y Nivel 1) se utilizan como etiquetas de déficit para buscar conformidad y corrección externa. Sin embargo, bajo la óptica del <strong>Colegio Invisible</strong>, un diagnóstico neurodivergente no es una patología a corregir, sino el <strong>plano esquemático exacto de nuestro hardware estelar</strong>. Conocer a fondo nuestras ventajas frente a nuestras desventajas operativas es lo que dispara exponencialmente nuestra soberanía individual.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 pt-2">
+                <!-- Isis: Ventajas vs Desventajas Decodificadas -->
+                <div class="bg-space-800/80 rounded-2xl p-6 border border-cyan-500/30 space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 rounded-lg bg-cyan-500/20 border border-cyan-500/40 flex items-center justify-center text-cyan-400 font-orbitron font-bold">I</div>
+                        <h3 class="font-orbitron font-bold text-lg text-cyan-400">Isis: Decodificación del Nivel 2</h3>
+                    </div>
+                    <ul class="text-sm text-gray-300 space-y-2 list-disc list-inside">
+                        <li><strong>La Desventaja Aparente:</strong> Evitación sensorial extrema, agotar recursos mentales filtrando el caos y rumiación obsesiva bajo el TOC.</li>
+                        <li><strong>La Ventaja Oculta (Soberanía Pura):</strong> Es un <em>firewall antimperial</em> absoluto. Ninguna campaña de marketing, manipulación emocional o dogma externo puede atravesar esa muralla de control analítico.</li>
+                        <li><strong>Impacto en la Soberanía:</strong> Al aceptar este blindaje como una ventaja táctica, dejas de intentar encajar en la manada, proteges tu energía y te autogobiernas con orden milimétrico.</li>
+                    </ul>
+                </div>
+
+                <!-- Juan: Ventajas vs Desventajas Decodificadas -->
+                <div class="bg-space-800/80 rounded-2xl p-6 border border-purple-500/30 space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 rounded-lg bg-purple-500/20 border border-purple-500/40 flex items-center justify-center text-purple-400 font-orbitron font-bold">J</div>
+                        <h3 class="font-orbitron font-bold text-lg text-purple-400">Juan: Decodificación del Nivel 1</h3>
+                    </div>
+                    <ul class="text-sm text-gray-300 space-y-2 list-disc list-inside">
+                        <li><strong>La Desventaja Aparente:</strong> Cuello de botella en la velocidad de procesamiento físico (64) frente a una mente verbal sobresaliente (130), fricción con la lentitud terrenal y fatiga por duelo/depresión.</li>
+                        <li><strong>La Ventaja Oculta (Soberanía Pura):</strong> Una antena de abstracción galáctica capaz de hackear conceptualmente la realidad y crear mundos limpios de interferencia matriz.</li>
+                        <li><strong>Impacto en la Soberanía:</strong> Al comprender que tu "retraso táctico" es simplemente un procesamiento dimensional profundo, dejas de exigirte el ritmo automático de los simios y asumes tu condición de creador soberano.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bg-space-900/90 rounded-2xl p-6 md:p-8 border border-cyan-500/40 space-y-4 text-center">
+                <h3 class="font-orbitron font-bold text-lg text-cyan-300">La Ecuación Definitiva de la Autonomía</h3>
+                <p class="text-sm text-gray-300 leading-relaxed max-w-3xl mx-auto">
+                    Cuando conoces con precisión quirúrgica tus puntos ciegos y tus fortalezas neurobiológicas, el deseo de controlar a los demás se extingue por completo. Ya no necesitas que el mundo cambie para estar en paz, porque dominas el único territorio sobre el cual tienes jurisdicción soberana: <strong>tu propio sistema nervioso y tu voluntad estelar</strong>.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <div id="modal" class="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm hidden">
+        <div class="glass-card max-w-md w-full mx-4 rounded-3xl p-8 border border-cyan-500/50 text-center relative space-y-4">
+            <h3 id="modal-title" class="font-orbitron font-bold text-xl text-cyan-400">ESTADO DEL SISTEMA</h3>
+            <p id="modal-message" class="text-gray-300 text-sm leading-relaxed">Mensaje de diagnóstico...</p>
+            <button onclick="closeModal()" class="px-6 py-2.5 bg-cyan-500 hover:bg-cyan-400 text-space-900 font-orbitron font-bold rounded-xl text-xs uppercase tracking-wider transition shadow-lg shadow-cyan-500/30">
+                Entendido
+            </button>
+        </div>
+    </div>
+
+    <script>
+        function triggerSystemStatus() {
+            showManualModal("ESTADO ÓPTIMO DE AMBOS", "El Piloto (Alma Astral) y el Chasis (Alma Somática) operan en sincronía cuántica. No se detectan interferencias teocráticas activas.");
+        }
+
+        function showManualModal(title, message) {
+            document.getElementById('modal-title').innerText = title;
+            document.getElementById('modal-message').innerText = message;
+            document.getElementById('modal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('modal').classList.add('hidden');
+        }
+
+        function updateChecklist() {
+            const checkboxes = document.querySelectorAll('#checklist-container input[type="checkbox"]');
+            let checkedCount = 0;
+            checkboxes.forEach(cb => {
+                if (cb.checked) checkedCount++;
+            });
+            document.getElementById('checklist-status').innerText = `ESTADO DE CHECKLIST: ${checkedCount} DE ${checkboxes.length} PROTOCOLOS COMPLETADOS`;
+            if (checkedCount === checkboxes.length) {
+                document.getElementById('checklist-status').classList.add('text-emerald-400');
+                document.getElementById('checklist-status').innerText += " [ CIRCUITO TOTALMENTE CALIBRADO ]";
+            } else {
+                document.getElementById('checklist-status').classList.remove('text-emerald-400');
+            }
+        }
+
+        const quizData = [
+            {
+                question: "¿Cómo respondes cuando un entorno social o jerárquico intenta imponer normas contrarias a tu criterio interno?",
+                options: [
+                    { text: "A) Me pliego a la norma por miedo a la exclusión del grupo o manada.", sovereign: false },
+                    { text: "B) Mantengo mi soberanía individual, analizo el contexto y actúo según mis principios.", sovereign: true }
+                ]
+            },
+            {
+                question: "¿Cuál es tu nivel de sincronía física tras una jornada de alta exigencia mental?",
+                options: [
+                    { text: "A) Agotamiento total, desconexión del cuerpo y sensación de autómata digital.", sovereign: false },
+                    { text: "B) Me mantengo anclado mediante respiración y descanso consciente del chasis somático.", sovereign: true }
+                ]
+            },
+            {
+                question: "¿Cómo evalúas la relación entre tu Alma Astral (Piloto) y tu Alma Somática (Chasis)?",
+                options: [
+                    { text: "A) Viven en conflicto; el cuerpo sufre somatizaciones por dudas y temores constantes.", sovereign: false },
+                    { text: "B) Operan como un circuito integrado armónico, coordinado y enfocado en la Gnosis.", sovereign: true }
+                ]
+            }
+        ];
+
+        let currentQuestionIndex = 0;
+        let sovereignScore = 0;
+
+        function loadQuizQuestion() {
+            const counterEl = document.getElementById('question-counter');
+            const scoreEl = document.getElementById('score-tracker');
+            const questionEl = document.getElementById('question-text');
+            const optionsEl = document.getElementById('options-container');
+
+            if (currentQuestionIndex < quizData.length) {
+                counterEl.innerText = `PREGUNTA ${currentQuestionIndex + 1} DE ${quizData.length}`;
+                scoreEl.innerText = `Puntuación Soberana: ${sovereignScore}`;
+                questionEl.innerText = quizData[currentQuestionIndex].question;
+                optionsEl.innerHTML = '';
+
+                quizData[currentQuestionIndex].options.forEach((opt) => {
+                    const btn = document.createElement('button');
+                    btn.className = "w-full text-left px-4 py-3 rounded-xl bg-space-900/90 border border-white/10 hover:border-purple-400 text-sm text-gray-300 transition hover:bg-space-700/50";
+                    btn.innerText = opt.text;
+                    btn.onclick = () => handleAnswer(opt.sovereign);
+                    optionsEl.appendChild(btn);
+                });
+            } else {
+                showQuizResults();
+            }
+        }
+
+        function handleAnswer(isSovereign) {
+            if (isSovereign) {
+                sovereignScore++;
+            }
+            currentQuestionIndex++;
+            loadQuizQuestion();
+        }
+
+        function showQuizResults() {
+            document.getElementById('quiz-box').classList.add('hidden');
+            const resultBox = document.getElementById('quiz-result');
+            const feedback = document.getElementById('quiz-feedback');
+            resultBox.classList.remove('hidden');
+
+            if (sovereignScore >= 2) {
+                feedback.innerHTML = `¡Diagnóstico Sobresaliente (<strong class="text-purple-400">${sovereignScore}/${quizData.length}</strong>)! El sistema <strong>Ambos</strong> opera en perfecta armonía soberana. El Colegio Invisible valida tu estabilidad.`;
+            } else {
+                feedback.innerHTML = `Diagnóstico (<strong class="text-amber-400">${sovereignScore}/${quizData.length}</strong>): Se detectaron desajustes entre el Piloto y el Chasis. Aplica los protocolos de calibración del Módulo 02.`;
+            }
+        }
+
+        function resetQuiz() {
+            currentQuestionIndex = 0;
+            sovereignScore = 0;
+            document.getElementById('quiz-result').classList.add('hidden');
+            document.getElementById('quiz-box').classList.remove('hidden');
+            loadQuizQuestion();
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            loadQuizQuestion();
+        });
+    </script>
+</body>
+</html>
