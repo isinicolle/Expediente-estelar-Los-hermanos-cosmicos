@@ -1,6 +1,10 @@
 # 🌐 SOY SOLO UN PUNTO P2P EN TU VIAJE DE EXPLORACIÓN. NO SOY LA VERDAD ABSOLUTA NI EL PASTOR, SOLO SOY COMO TÚ: OTRO INVESTIGADOR EN SU CAMINO DEL HÉROE 🌌
 # Expediente Estelar: Los Hermanos Cósmicos
 
+
+ ![](https://repository-images.githubusercontent.com/1330539783/9b67f7c5-fd21-49ff-aac0-8ead17f59aa0)  
+
+
 Unión de análisis filosófico-ocultista de **WIH** (War in Heaven) + Experiencias propias + Estudios profesionales **TEA**.
 
 🔗 **Sitio web oficial:** [Expediente Estelar: El Linaje de los Hermanos Cósmicos](https://isinicolle.github.io/Expediente-estelar-Los-hermanos-cosmicos/)  
