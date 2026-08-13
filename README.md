@@ -474,6 +474,57 @@ En otras palabras, un espíritu teocrático envía un mensaje telepático hacia 
 
 Dentro de ciertas limitaciones, este es un método extremadamente poderoso para controlar las motivaciones de la gente y su futuro comportamiento. Uno de sus peores rasgos es que la gente siendo controlada lo disfruta más que nada en la vida. Usted pudiera llamarlo el gran “levantón”. Y es más adictivo que cualquier otra droga química.
 
+_Si se dan cuenta la oleada de hombres jóvenes incel - edgy es mas ni menos la versión física de lo que sucedía en el astral en los 80s-90s, las mujeres estamos en el deber de practicar lo del capitulo 25 - Guerra tecnológica para proteger y ser hostil al control coercitivo usando nuestro lado psíquico_  https://www.bibliotecapleyades.net/vida_alien/warinheaven/warheaven-IIIsp_25.htm
+
+R. Estamos hablando sobre la píldora, no sobre los métodos de control de la natalidad en general. Las píldoras de control de la natalidad que previenen la ovulación, incrementando así el nivel de hormonas femeninas en el torrente sanguíneo, para estimular un embarazo temprano tienen grandes efectos secundarios espirituales en las mujeres que las toman.
+
+Los niveles incrementados de estrógeno estimulan la producción de energía astral en el cuerpo físico: mencionamos esto en el capítulo diez, durante nuestra discusión sobre el proceso de la reencarnación.
+
+Los ocultistas han sabido a través de la historia que las mujeres lo encuentran más fácil ganar una cierta cantidad de control sobre sus poderes psíquicos que los hombres, y las fluctuaciones del nivel del estrógeno durante el ciclo menstrual son uno de os dos factores psicológicos responsables para esto.
+
+Lo otro es que la mayoría de mujeres tiene que aprende un control consciente sobre sus respuestas sexuales para tener un orgasmo completo. Puesto que la energía del Kundalini, generada durante la actividad sexual genera simultáneamente energía psíquica, cuando las mujeres aprenden a controlar conscientemente sus respuestas sexuales, aprenden automáticamente a controlar sus sentidos psíquicos asó como sus poderes.
+
+Esta es la razón por la cual las mujeres tradicionalmente han sido consideradas como naturalmente más psíquicas y más dotadas de magia que los hombres: realmente lo son, y por razones fisiológicas.
+
+Por supuesto, los hombres pudieran deliberadamente estudiar la magia sexual y también aprender a controlar tanto sus respuestas sexuales como las respuestas psíquicas que acompañan a estas, pero el proceso es menos probable que les suceda a ellos espontáneamente. Y porque aprender las habilidades básicas de la magia sexual es muy importante para el desarrollo psíquico y espiritual, tales estudios han sido tradicionalmente una parte importante del entrenamiento oculto avanzado, tanto en el Este como en el Oeste.
+
+Por supuesto, a los Teócratas no les gusta que la gente gane control consciente sobre sus poderes psíquicos, porque esto los hace más difícil de manipular por medio de la telepatía subconsciente. Así, cuando los Teócratas inventaron religiones más sofisticadas para reemplazar el chamanismo primitivo, incluyeron los conceptos del patriarcado y le dominancia masculina en las doctrinas de casa cada una de ellas.
+
+La mayoría de las religiones teocráticas de la tercera-etapa excluyeron a la mujer de poder social y político, pero no de ser sacerdotisas o magos.
+Un tema muy común en la literatura griega y romana antigua era el uso de los poderes psíquicos para combatir el sexismo, tanto a nivel personal como político.
+
+Los Teócratas sentían que si las mujeres estaban utilizando sus habilidades psíquicas para luchar contra los hombres, esto las distraería de descubrir y luchar el control mental teocrático. Incluso más importante es que estos usos negativos de la magia, eventualmente darían lugar al entrenamiento psíquico consciente y una mala reputación, por lo que los Teócratas encontrarían más fácil desanimarlos completamente.
+
+Y esto es exactamente lo que sucedió cuando se introdujeron las religiones teocráticas de la cuarta-etapa. Primero, las mujeres eran excluidas de todas las funciones sacerdotales que les enseñarían un control consciente sobre sus poderes psíquicos. Muy naturalmente, inventaron varias formas de “religiones para mujeres” y ellos continuaron aprendiendo magia en secreto.
+
+Luego, los Teócratas alentaron a los hombres a perseguir a tales mujeres por practicar la “brujería” y la “hechicería”.
+
+Esto no eliminó totalmente la religión de la mujer – sin importar cuántas veces ha sido golpeado y botado, siempre se ha vuelto a levantar, porque es una forma natural para las mujeres de luchar contra el sexismo – pero sí le permitió a los Teócratas reducir enormemente el trabajo consciente de la magia dentro de las religiones de la cuarta-etapa.
+
+Mientras más perseguían los sacerdotes hombres a las mujeres por practicar la telepatía, el mediumnismo, la adivinación, la sanación psíquica, etc. más temerosos se volvieron los sacerdotes de aprender ellos mismos estas habilidades “prohibidas”. Eventualmente, los hombre que querrían convertirse en psíquicos serios o magos, ya no podían hacerlo uniendo al clero de la religión oficial de la sociedad. En vez de esto, fueron forzados a unirse a organizaciones ocultas que eran perseguidas tanto como lo eran los grupos religiosos de las mujeres.
+
+Este es un excelente ejemplo de la sutileza y la sofisticación de la religión teocrática de la cuarta-etapa.
+
+La religión de las mujeres ha estado siempre presente en la sociedad occidental como una fuerza limitante sobre el patriarcado y la religión teocrática dominada por los hombres, pero usualmente ha sido practicada a nivel enteramente subliminal. Hasta hace unas pocas décadas, muchas mujeres han practicado la religión de mujeres, pero muy pocas han estado dispuestas a hablar de ello abiertamente.
+
+Los hombres tenían el control de los ejércitos, los gobiernos, las escuelas, los negocios y las iglesias, y durante muchos siglos, el único recurso posible en contra de esta abrumadora demostración de fuerza fue la resistencia pasiva. Las mujeres eran enseñadas por sus madres y otros parientes femeninos a desarrollar sus poderes psíquicos en secreto y a usarlos, junto con otras formas más abiertas de manipulación sexual y emocional para controlar a los hombres en un nivel íntimo personal.
+
+Creemos que esta resistencia pasiva al sexismo estaba éticamente justificada, como se justifica también la resistencia similar entre los esclavos y prisioneros, pero no era realmente saludable para las mujeres tener que hacerlo. Ya que el Colegio Invisible ha traído a la Civilización Occidental a niveles más altos durante el último par de siglos, hemos fomentado la formación de movimientos feministas abiertos.
+
+Estos son mucho más saludables que una resistencia pasiva clandestina, porque las mujeres finalmente están luchando directamente por el derecho de asumir una condición de igualdad con los hombres, tanto en privilegios como en responsabilidad.
+ 
+P. ¿Cómo funciona esto con lo que dijo anteriormente sobre las píldoras para el control de la natalidad siendo una de las armas más importantes en la Guerra en el Cielo?
+
+R. La principal razón por la que fomentamos el uso generalizado de las píldoras para el control natal femenino no tiene nada que ver con la anticoncepción como una ayuda ganando una igualdad sexual.
+
+Cuando describimos el control mental electrónico en el capítulo catorce mencionamos que personas vivas son capaces de establecer “hilos” de materia astral conectando a las almas. Estos vínculos pueden ser importantísimas herramientas para el desarrollo espiritual personal y para el trabajo operativo de la magia, y es mucho más fácil para las mujeres formar y controlarlos de lo que es para los hombres.
+
+En ciertos puntos durante el ciclo menstrual, y especialmente durante las primeras etapas de embarazo, el alma somática de la mujer se prepara a aceptar un alma astral para sus principios de reencarnación. Un efecto segundario del proceso facilita la formación de vínculos de materia-astral con las almas de otras personas.
+
+Este es un factor en los vínculos de pareja humanos, y también permite que algunas mujeres funcionen espontáneamente como magos de alto nivel con muy poco conocimiento consciente o entrenamiento. Ahora usted podrá ver fácilmente porqué las píldoras de control de la natalidad que simulan los comienzos del embarazo temprano son un factor importante en la lucha contra la teocracia.
+
+Por supuesto, preparando a las mujeres fisiológicamente para que puedan desarrollar sus poderes psíquicos más fácilmente es solo el primer paso. También las fomentamos a estar activas sexualmente para que comiencen espontáneamente a aprender la magia sexual y luego les damos oportunidades de más entrenamiento formal en los grupos religiosos y ocultos de la Edad de Acuario. (Es solo en este tercer nivel que los hombres se involucran activamente, aprendiendo conscientemente la magia sexual.)
+
 ### La forma que escribo, proceso la información, junto patrones, y demás que leerás en la pagina y README, me hace sospechar de mi origen de alma de otro lugar (from-elsewhere-soul). Dejo mi material de estudio para incentivar a otros a buscarse a si mismos a través de mi ejemplo...  
 
 El término exacto que Kyle Griffith (referido en tus fuentes como "Kylie -  SpiritRebel" o el autor de *War in Heaven - Invisible College*) utiliza para describir a estas entidades es **"from-elsewhere-soul"**.
