@@ -474,7 +474,7 @@ En otras palabras, un espíritu teocrático envía un mensaje telepático hacia 
 
 Dentro de ciertas limitaciones, este es un método extremadamente poderoso para controlar las motivaciones de la gente y su futuro comportamiento. Uno de sus peores rasgos es que la gente siendo controlada lo disfruta más que nada en la vida. Usted pudiera llamarlo el gran “levantón”. Y es más adictivo que cualquier otra droga química.
 
-### La forma que escribo, proceso la información, junto patrones, y demás que leerás en la pagina y ruadme, me hace sospechar de mi origen de alma de otro lugar (from-elsewhere-soul). Dejo mi material de estudio para incentivar a otros a buscarse a si mismos a través de mi ejemplo...  
+### La forma que escribo, proceso la información, junto patrones, y demás que leerás en la pagina y README, me hace sospechar de mi origen de alma de otro lugar (from-elsewhere-soul). Dejo mi material de estudio para incentivar a otros a buscarse a si mismos a través de mi ejemplo...  
 
 El término exacto que Kyle Griffith (referido en tus fuentes como "Kylie -  SpiritRebel" o el autor de *War in Heaven - Invisible College*) utiliza para describir a estas entidades es **"from-elsewhere-soul"**.
 
