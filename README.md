@@ -529,7 +529,7 @@ Este es un factor en los vínculos de pareja humanos, y también permite que alg
 
 Por supuesto, preparando a las mujeres fisiológicamente para que puedan desarrollar sus poderes psíquicos más fácilmente es solo el primer paso. También las fomentamos a estar activas sexualmente para que comiencen espontáneamente a aprender la magia sexual y luego les damos oportunidades de más entrenamiento formal en los grupos religiosos y ocultos de la Edad de Acuario. (Es solo en este tercer nivel que los hombres se involucran activamente, aprendiendo conscientemente la magia sexual.)
 
-### La forma que escribo, proceso la información, junto patrones, y demás que leerás en la pagina y README, me hace sospechar de mi origen de alma de otro lugar (from-elsewhere-soul). Dejo mi material de estudio para incentivar a otros a buscarse a si mismos a través de mi ejemplo...  
+### La forma que escribo, proceso la información, junto patrones, y demás que leerás en la pagina y README, me hace sospechar de mi origen de alma de otro lugar (from-elsewhere-soul). Dejo mi material de estudio para incentivar a otros a buscarse a si mismos a través de mi ejemplo...  _I am Alien_
 
 El término exacto que Kyle Griffith (referido en tus fuentes como "Kylie -  SpiritRebel" o el autor de *War in Heaven - Invisible College*) utiliza para describir a estas entidades es **"from-elsewhere-soul"**.
 
