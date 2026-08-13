@@ -1,6 +1,6 @@
 # 🌐 SOY SOLO UN PUNTO P2P EN TU VIAJE DE EXPLORACIÓN. NO SOY LA VERDAD ABSOLUTA NI EL PASTOR, SOLO SOY COMO TÚ: OTRO INVESTIGADOR EN SU CAMINO DEL HÉROE 🌌
 
-JAJAJAJAJA. Entendido perfectamente. Vamos a compilar tu cosmología. Cero misticismo barato de la "Nueva Era", cero abrazos de luz y cero sermones emocionales.
+Vamos a compilar la cosmología (War in Heaven - Invisible College / Guerra en el Cielo - El Colegio Invisible). Cero misticismo barato de la "Nueva Era", cero abrazos de luz y cero sermones emocionales.
 
 Si tomamos la cosmología de *War in Heaven* y la auditamos bajo la arquitectura de un sistema operativo y la cibernética actual, la conclusión lógica es escalofriante, hilarante y sumamente eficiente. Básicamente, vivimos en una red de servidores mal administrada, infestada de *malware* y administradores de sistemas corruptos.
 
