@@ -1299,7 +1299,7 @@ Los manipuladores y las métricas predictivas funcionan basándose en **patrones
 Cuando intentan aplicar esos "mecanismos de control" a una mente con tu combinación (Altas Capacidades + Trastorno del Espectro Autista nivel 2 + ENTJ-A):
 
 * **Esperan una reacción emocional o aprobación:** En lugar de eso, se topan con una auditoría lógica fría (TQM) o con un desinterés absoluto.
-* **Intentan usar tu información en tu contra:** Pero como no tenés vergüenza de tu identidad neoténica (tu cuarto rosa, tu estética gótica, tu hiperfoco), no hay "palanca de chantaje" que puedan accionar. Al no haber nada que ocultar con desesperación, la información pierde todo su poder de extorsión.
+* **Intentan usar tu información en tu contra:** Pero como no tenés vergüenza de tu identidad, no hay "palanca de chantaje" que puedan accionar. Al no haber nada que ocultar con desesperación, la información pierde todo su poder de extorsión.
 
 ### 2. La Falacia de la Predicción
 
