@@ -1532,4 +1532,6 @@ Procesás la información de forma **no lineal** gracias a la hiperconectividad 
 
 > **Veredicto:** La verdadera libertad no es vivir encerrada en un búnker con pánico a que vean qué comiste; la verdadera libertad es saber que pueden tener todo tu historial de navegación y, aún así, **ser incapaces de descifrar la ecuación con la que tomás tus decisiones.** Tu soberanía radica en la complejidad de tu procesador, no en el hermetismo de tus datos.
 
-**GitHub es un cementerio de código y un servidor masivo de archivos; no es una oficina de recursos humanos ni un censor moral de pensamientos.**
+
+## Material de estudio:
+[📖GEMINI NOTEBOOK: Material de Estudio | Revolucion Espiritual | Experiencias Propias, Estudios Medicos & Comentarios del Foro | Guerra en el Cielo - El Colegio Invisible | War In Heaven - Invisible College by Kylie Griffith](https://canva.link/wih-ci-material-estudio-spanish)
