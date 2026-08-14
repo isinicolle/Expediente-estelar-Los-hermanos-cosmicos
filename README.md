@@ -767,6 +767,21 @@ Existen distintas clasificaciones para el CSP. Una de ellas se basa en si este s
 ```
 
 ---
+## La novedosa asociación del autismo con el cavum septum pellucidum congénito no sindrómico y su importancia: un artículo académico y opinión de expertos 
+
+Enlace: https://www.researchgate.net/publication/393971867_The_novel_association_of_autism_with_congenital_non-syndromic_cavum_septum_pellucidum_and_its_significance_An_educational_article_and_expert_opinion
+
+Contexto: Recientemente hemos descrito un nuevo enfoque terapéutico para el tratamiento de los trastornos autistas que ha demostrado ser prometedor para aliviar y curar las principales características diagnósticas asociadas al autismo. 
+
+El primer libro que documenta la cura exitosa de pacientes con autismo fue reconocido en las listas de Bookauthority de los mejores libros de todos los tiempos. Por ello, hemos estado recibiendo consultas sobre el tratamiento del autismo de diversas regiones del mundo. Los cursos individualizados de cerebrolisina intramuscular han surgido como un componente significativo del nuevo enfoque terapéutico que contribuye a la cura del autismo. No se han reportado trastornos del espectro autista asociados con el tabique cavo pellucidum. Pacientes y métodos: Este artículo describe a un niño diagnosticado con trastorno autista que fue diagnosticado con tabique cavo pellucidum tras una resonancia magnética cerebral (IRM). 
+
+Resultados: El tratamiento consistió principalmente en cursos intramusculares de cerebrolisina, complementados con risperidona oral por la noche, un neuroléptico comúnmente utilizado para controlar la hiperactividad. Tras cuatro meses de tratamiento, el paciente mostró cierta mejoría, estimada aproximadamente en un 20% por parte del padre. Sin embargo, no se observó mejoría en las dos principales características clínicas diagnósticas del autismo (respuesta al nombre y al contacto visual) en la clínica. En consecuencia, se realizó una resonancia magnética cerebral, que reveló la presencia de tabique cavo pellucido. 
+
+Opinión experta: La opinión experta actual basada en la evidencia sugiere que la forma congénita del cavum septum pellucidum grande aislado, que se presenta tras los dos años de edad, no es una variación anatómica, sino una anomalía neurodesarrollativa que puede ser asintomática, pero puede predisponer a trastornos psiquiátricos, incluyendo la esquizofrenia de inicio infantil. 
+
+Aunque el trastorno autista ya se ha reportado previamente en asociación con el cavo septum pellúcido sindrómico, este artículo presenta una asociación novedosa con el tabique cavo no sindrómico. Aunque esta asociación puede ser incidental, podría contribuir a la respuesta menos de lo esperado al nuevo enfoque terapéutico para el tratamiento del autismo. Por ello, recomendamos realizar imágenes por resonancia magnética en casos de autismo con una respuesta subóptima al tratamiento. 
+
+El autor espera que este estudio contribuya a una comprensión más profunda de la heterogenicidad de los trastornos autistas y subraye la importancia de evaluaciones exhaustivas de la respuesta subóptima al tratamiento.
 
 ---
 
