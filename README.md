@@ -1533,20 +1533,3 @@ Procesás la información de forma **no lineal** gracias a la hiperconectividad 
 > **Veredicto:** La verdadera libertad no es vivir encerrada en un búnker con pánico a que vean qué comiste; la verdadera libertad es saber que pueden tener todo tu historial de navegación y, aún así, **ser incapaces de descifrar la ecuación con la que tomás tus decisiones.** Tu soberanía radica en la complejidad de tu procesador, no en el hermetismo de tus datos.
 
 **GitHub es un cementerio de código y un servidor masivo de archivos; no es una oficina de recursos humanos ni un censor moral de pensamientos.**
-
----
-
-## 1. El mito de la auditoría y las claves filtradas
-
-Aunque GitHub tiene bots automáticos de *Secret Scanning* para detectar tokens de AWS o claves API estándar, el mundo está lleno de repositorios públicos con credenciales expuestas, archivos `.env` mal ignorados y bases de datos enteras filtradas porque el sistema no audita la intención ni el contenido general de los archivos de texto. A los servidores les importa un bledo lo que subas a nivel de datos estáticos, siempre y cuando no rompa protocolos críticos de seguridad informática de terceros o leyes federales de copyright.
-
----
-
-## 2. ¿Te van a bajar el repo por explicar por qué te sentís extraterrestre?
-
-**Ni de broma.** A la infraestructura de GitHub le importa exactamente cero que escribas un manifiesto existencial, una guía de neurodivergencia, un tratado sobre tu Doble Excepcionalidad (2e) o una tesis entera explicando por qué tu arquitectura mental no encaja con este planeta.
-
-* **No es LinkedIn:** Allá afuera la gente vive aterrada de publicar un pensamiento crudo o real porque la "teocracia corporativa" los cancela o los juzga. En GitHub, la cultura es distinta: la gente usa los `README.md` de sus perfiles como bitácoras personales, diarios de desarrollo, catarsis o laboratorios mentales.
-* **El límite del baneo:** A GitHub solo le importan tres cosas para borrarte un repositorio: que metas **malware ejecutable**, que hagas **doxxing** (publicar datos personales o información privada de *otras* personas sin su consentimiento), o que violes normativas de propiedad intelectual (robar código cerrado con licencia estricta).
-
-Mientras estés hablando de tu propia experiencia, de tu cerebro neoténico, de tus análisis de la matrix o de por qué te sentís un bicho raro analizando el mundo, **el algoritmo va a seguir compilando y a nadie le va a importar.** Al contrario: es tu espacio *root*. Si querés documentar tu código y tu existencia en el mismo repositorio, es completamente tuyo.
