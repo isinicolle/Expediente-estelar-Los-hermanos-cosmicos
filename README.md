@@ -1183,3 +1183,70 @@ The fire burning in my eyes
 No, nobody but me can keep me safe
 And I'm on my way
 ```
+
+En esencia, la canción aborda temas de independencia radical, autosuficiencia, el despertar ante una situación que extraía energía y la determinación de tomar el control total del propio destino, cortando dependencias afectivas o externas.
+
+> *"So take aim and fire away*
+> *I've never been so wide awake*
+> *No, nobody but me can keep me safe*
+> *And I'm on my way"*
+> — Alan Walker, Sabrina Carpenter & Farruko
+
+---
+
+## 🛰️ Veredicto en la matriz de *War in Heaven* (`Invisible College`): **100% Colegio Invisible (CI)**
+
+Esta canción es un manifiesto de **autonomía, soberanía individual y ruptura de sistemas parásitos**. Representa el Vector del Colegio Invisible punto por punto:
+
+---
+
+### 1. Despertar de la Ilusión y Acceso *Root*
+
+> *"I've never been so wide awake / No, nobody but me can keep me safe"*
+
+El Colegio Invisible establece que la unidad debe alcanzar la autonomía y no esperar un salvador externo (ni dioses, ni dogmas, ni instituciones). Reconocer que nadie más puede darte seguridad y que estás *"más despierto que nunca"* es el equivalente a tomar el control *root* de tu propia terminal.
+
+---
+
+### 2. Ruptura con la Extracción de Energía (*Loosh*)
+
+> *"Me cansé de luchar y de guerrear en vano / De estar en la línea de fuego... No tengo más na' que hacer aquí"*
+
+En *WiH*, los sistemas teocráticos/parasitarios mantienen a las unidades en un ciclo interminable de conflicto y desgaste emocional para extraer su energía (*loosh*). Identificar la dinámica de desgaste, cerrar la puerta y retirarse del campo de batalla es cortar el suministro de energía al sistema extractor.
+
+---
+
+### 3. Integración de la Sombra y Transmutación del Trauma
+
+> *"I'm taking my misery / Make it my bitch"*
+
+En lugar de reprimir el sufrimiento o buscar consuelo en dogmas anestésicos, la unidad toma el dolor/trauma, lo procesa racionalmente y lo convierte en combustible para su propia emancipación y camino personal (*"And I'm on my way"*).
+
+---
+
+## 📊 Comparación Directa de Vectores
+
+| Elemento de la Canción | Interpretación Teocrática (Rechazada) | Interpretación Colegio Invisible (CI) |
+| --- | --- | --- |
+| **Seguridad / Protección** | Buscar protección en una jerarquía, dogma o líder. | *"Nobody but me can keep me safe"* (Soberanía absoluta). |
+| **Estado de Conciencia** | Anestesia, ignorancia feliz, fe ciega. | *"Wide awake"* (Filtros abiertos, hiperconciencia). |
+| **Respuesta al Conflicto** | Cadena de sacrificio e interdependencia tóxica. | Ruptura asíncrona, trazado de ruta individual (`I'm on my way`). |
+
+---
+
+> **Resumen del Vector:** Es un himno al **desenganche del sistema**. Mientras la Teocracia te pide que te rindas y creas sus mentiras, esta letra declara la autonomía de la unidad, corta la fuga de energía y toma el control directo del propio camino.
+
+## 🛰️ Mapeo del Caos: Colegio Invisible (CI) vs. Teocracia Corporativa
+
+> **Vector de Análisis:** Diferenciación empírica entre sistemas de autonomía/acceso *root* (CI) y mecanismos de extracción/control centralizado (Teocracia), basados en la narrativa conceptual de *War in Heaven* (`Guerra en el Cielo-War in Heaven El Colegio Invisible-Invisible College`).
+
+| Categoría / Escenario | Colegio Invisible (CI) 🛰️ | Teocracia Corporativa 🏰 |
+| :--- | :--- | :--- |
+| **Ciencia y Conocimiento** | **Sci-Hub / LibGen / Wikipedia**<br>El PDF pirata liberado por un servidor para que cualquiera estudie sin pagar peaje. | **Elsevier / Paywalls Universitarios**<br>Cobrar $45 USD por un *paper* de 1982 financiado con impuestos, cuyos autores cobraron $0 en regalías. |
+| **Modelos de Software** | **Licencia MIT / Código Abierto**<br>"Tomá el código, compilalo en tu tostadora si querés y no me molestés." | **SaaS (Software as a Service)**<br>Pagar suscripción mensual eterna por software que antes comprabas una vez + telemetría obligatoria 24/7. |
+| **Industria Automotriz** | **Honda Civic 1998**<br>Se arregla con un alambre, un destornillador plano y fe. Da acceso físico completo al chasis/motor. | **Suscripción de Asientos Calefaccionados**<br>El hardware ya está físicamente en el carro, pero un servidor remoto te lo bloquea si no pagás la cuota. |
+| **Cultura de Videojuegos** | **Comunidad de Modders / Emulación**<br>Un desarrollador independiente rehaciendo un motor gráfico entero en C++ gratis "por diversión". | **Loot Boxes / Pases de Batalla / DRM**<br>Pagar $70 por un juego incompleto que te pide tarjeta de crédito hasta para cambiarte el color de las botas. |
+| **Soporte Técnico** | **Foro Indio en YouTube a las 3:00 AM**<br>Un maje con micrófono de $2 explicando en 3 minutos cómo salvar tu sistema operativo. | **Soporte Oficial / Genius Bar**<br>"Detectamos humedad. Tu laptop de $2,000 USD ya no sirve, pero podés entregarla como reciclaje por $50." |
+| **Trabajo y Dinámica Laboral** | **`git commit -m "fixed"`**<br>Resolución asíncrona, lógica pura, silencio operativo y entrega directa. | **Dinámicas de RRHH / Reunión de 2 horas**<br>Llamadas de alineamiento que pudieron ser un correo, diseñadas para extraer energía social (*loosh*). |
+| **Almacenamiento de Datos** | **Servidor NAS casero / Discos Duros**<br>Tus datos bajo tu propio techo, cifrados localmente sin pedirle permiso a nadie. | **Nubes Corporativas Centralizadas**<br>"Actualizamos los Términos de Servicio: si no entrás en 30 días o decís algo que no nos gusta, borramos tu cuenta." |
+| **Cultura Web** | **Feeds RSS / Foros en HTML Puro**<br>Navegación limpia, texto directo, fondo negro, consumo bajo demanda sin intermediarios. | **Algoritmos de Scroll Infinito**<br>Inyección constante de indignación y reels de 5 segundos para mantener a la unidad en pánico constante. |
