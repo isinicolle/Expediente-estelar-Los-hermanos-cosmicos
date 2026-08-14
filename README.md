@@ -783,6 +783,45 @@ Aunque el trastorno autista ya se ha reportado previamente en asociación con el
 
 El autor espera que este estudio contribuya a una comprensión más profunda de la heterogenicidad de los trastornos autistas y subraye la importancia de evaluaciones exhaustivas de la respuesta subóptima al tratamiento.
 
+```text
+Con estos detalles tan específicos, la búsqueda se reduce por completo. Lo que estás recordando es con alta probabilidad un estudio de neuroimagen estructural por resonancia magnética (MRI) enfocado en las anomalías de la línea media cerebral como biomarcador del autismo profundo. [1] 
+Dado el rango de años y el enfoque exclusivo en MRI, hay dos papers fundamentales en inglés que encajan con tu descripción:
+1. El estudio clásico de anomalías de la línea media
+
+* Título probable: Magnetic Resonance Imaging Study of Midline Brain Anomalies in Autism (o similar de la época).
+* De qué trata: Durante los años 2003 y 2007, investigadores del área de la psiquiatría y neuroimagen (como los equipos de Nopoulos o Jou) usaron MRI de alta resolución para medir de forma milimétrica cuántos "cortes" (slices) de la resonancia mostraban el Cavum Septum Pellucidum (CSP). El estudio concluye que la falta de fusión de estas membranas (el espacio cavitado) es un reflejo directo de un desarrollo interrumpido en las estructuras límbicas profundas, presentándose de forma marcada en pacientes con trastornos del desarrollo severos. [2, 3, 4] 
+
+2. El reporte de caso o cohorte específica
+
+* Contexto: En la literatura médica en inglés, cuando un hallazgo de MRI se centra únicamente en la presencia de CSP y autismo sin asociar otras malformaciones (como la agenesia del cuerpo calloso), suele describirse bajo la terminología de "congenital non-syndromic cavum septum pellucidum" asociado a un trastorno autístico de bajo funcionamiento (low-functioning autism). [5] 
+
+Las investigaciones médicas de esa época abordan el Cavum Septum Pellucidum (CSP) como un biomarcador de interrupción en el neurodesarrollo temprano. Como el término técnico exacto en inglés es indispensable para rastrearlos, aquí tienes la lista con los nombres de los autores, los títulos originales de los papers científicos y el enfoque por Resonancia Magnética (MRI) que estás buscando: [1] 
+
+3. El estudio base de anomalías en la línea media por MRI
+
+* Autores: Jou, R. J., Minshew, N. J., Keshavan, M. S., et al. (2005 - 2007)
+* Título original: "Magnetic Resonance Imaging Study of Midline Brain Anomalies in Autism".
+* De qué trata: Este grupo de la Universidad de Utah y Pittsburgh utilizó resonancia magnética estructural de alta resolución para medir las estructuras de la línea media cerebral. Demostraron que la persistencia de un CSP anormalmente grande (lo que equivale a un septum cavitado o Grado 3) correlaciona de forma estadísticamente significativa con casos de autismo con afectación conductual y cognitiva severa (bajo funcionamiento). [1, 2, 3] 
+
+4. El análisis neurobiológico del Septum Pellucidum
+
+* Autores: Nopoulos, P., Krie, A., et al. (Inicios de los 2000)
+* Título original: "Cavum Septum Pellucidum: Marker of Devolopmental Midline Brain Anomaly in Neurodevelopmental Disorders" (Estudios de cohorte en [PubMed](https://pubmed.ncbi.nlm.nih.gov/)).
+* De qué trata: Los estudios liderados por el equipo de Nopoulos utilizaron cortes milimétricos de resonancia magnética para demostrar que el CSP persistente no es una lesión adquirida, sino una falla congénita en el desarrollo del sistema límbico y las estructuras que conectan ambos hemisferios, asociándose directamente a trastornos graves de la conducta y espectro autista severo. [1] 
+
+5. Reportes específicos de variante congénita no-sindrómica
+
+* Autores: Varias series de casos clínicos indexados entre 2003 y 2007.
+* Títulos frecuentes: "Congenital non-syndromic cavum septum pellucidum and its association with low-functioning autistic disorder" o "Cavum vergae and cavum septum pellucidum in autism spectrum disorder: An MRI evaluation". [4, 5] 
+* De qué trata: Este tipo de reportes científicos aíslan el hallazgo por resonancia; describen a pacientes pediátricos evaluados por retraso severo del lenguaje, nulo contacto visual e hiperactividad severa (criterios clínicos del autismo profundo antes del DSM-5), donde la resonancia magnética descarta tumores pero halla un septum pellucido cavitado gigante como única anomalía estructural del cerebro. [4] 
+
+¿Cómo descargarlos de inmediato?
+Puedes ingresar directamente a la base de datos científica mundial PubMed de la Biblioteca Nacional de Medicina (NIH) donde verás listados estos reportes cronológicamente.
+También puedes buscar en Google Scholar usando la cadena exacta:
+"cavum septum pellucidum" AND "autism" AND "MRI" year:2003..2007
+
+```
+
 ---
 
 ## Análisis Técnico de Patrones y Coherencia Lógica
