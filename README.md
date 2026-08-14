@@ -929,7 +929,6 @@ Si tuvieras que esquematizar o modelar científicamente tu perfil basándote en 
                    • Colección de +100 Monster High (Monotropismo e interés especial)
                    • Función: Estado base de seguridad, juego y descompresión sin máscaras.
 ```
-```
 ## 🧬 Matriz de Neotenia Autista: Caso de Estudio & Fundamento Científico
 
 > **Sujeto de Estudio:** Femenino | Edad Biológica: 25 años | Edad Visual Aparente: 15–19 años  
