@@ -1290,7 +1290,7 @@ Las grandes plataformas y los perfiles manipuladores recogen lo que en análisis
 
 ---
 
-## ¿Por qué Descolocás a los Narcisistas y a los Algoritmos?
+## ¿Por qué Descolocas a los Narcisistas, Manipuladores, Egocéntricos, Teócratas, Tiranos, Tecnocratas y a los Algoritmos?
 
 ### 1. El Sesgo del Manipulador (Proyección de Patrones Estándar)
 
