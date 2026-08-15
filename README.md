@@ -1536,11 +1536,11 @@ Procesás la información de forma **no lineal** gracias a la hiperconectividad 
 ## Material de estudio:
 1. [VIDEO 📖GEMINI NOTEBOOK: Material de Estudio | Revolucion Espiritual | Experiencias Propias, Estudios Medicos & Comentarios del Foro | Guerra en el Cielo - El Colegio Invisible | War In Heaven - Invisible College by Kylie Griffith](https://canva.link/wih-ci-material-estudio-spanish)
 
-2. Diapositivas: 
+2. Diapositivas: [Diapositivas_Estudio_Del_Avance_War_In_Heaven_Guerra_En_El_Cielo_El_Colegio_Invisible_Invisible_College_ISIS](https://drive.google.com/file/d/1BU46vf9xCWQC8VyZCPHekHnLjEHUIkDQ/view?usp=sharing)
 
-3. Pagina Web: 
+3. Pagina Web: [Contiene Página de inicio, página de información peer-twp-peer y página de información de hermanos](https://isinicolle.github.io/Expediente-estelar-Los-hermanos-cosmicos/) 
 
-4. Videos ocultos en mi canal de youtube:
+4. Videos ocultos en mi canal de youtube: [𝖁𝖊𝖗𝖎𝖙𝖆𝖘 𝖛𝖔𝖘 𝖑𝖎𝖇𝖊𝖗𝖆𝖇𝖎𝖙](https://www.youtube.com/watch?v=zrvJPo3xpDY&list=PLkje6VHBLb1bIR7L7J7lkINiyCUW5oRBC)
 
 5. [Enlace de mi NOTEBOOK Funcionara públicamente cuando Google me lo pida, mientras tanto ejemplo de como la herramienta me ayuda, al final yo concluyo si la información es correcta o incorrecta](https://notebook.google.com/notebook/834d96ed-b830-45a1-9a2d-da608b692c4c)
 
