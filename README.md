@@ -1583,6 +1583,6 @@ Este readme, la pagina, los enlaces de arriba y este otro regalo que dejo aqui: 
 
 ## Los Tres Niveles de la Kundalini y la Magia Sexual
 La evolución técnica de la elevación de la Kundalini a lo largo de la historia humana:
-* 🔹Nivel Original (Hindú): Completamente "casto" (sin orgasmo) y exclusivamente heterosexual.
-* 🔹Nivel de Expansión (Grecia/China): Se incluyó la práctica homosexual; el compañero pasivo podía tener orgasmos, pero el activo no.
-* 🔹Nivel Moderno (Era de los Descubrimientos): Ambos compañeros tienen orgasmos y se denomina abiertamente "Magia Sexual".
+* 🔹Nivel Original (Hindú): Completamente "casto" (sin orgasmo) y exclusivamente heterosexual. (Sexo Mecanico) 
+* 🔹Nivel de Expansión (Grecia/China): Se incluyó la práctica homosexual; el compañero pasivo podía tener orgasmos, pero el activo no. (Sexo dominante-sumiso)
+* 🔹Nivel Moderno (Era de los Descubrimientos): Ambos compañeros tienen orgasmos y se denomina abiertamente "Magia Sexual". (Sexo entre individuos soberanos)
