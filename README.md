@@ -1579,7 +1579,7 @@ Para operar en entornos de alta densidad teocrática, se aplican los siguientes 
 
 La gente que hace el avance completo será capaz de tomar el material de introducción presentado en este libro y usarlo creativamente para sacar conclusiones correctas de otra información en el tema, que ya lo saben o lo aprenderán más tarde.
 
-Este readme, la pagina, los enlaces de arriba y este otro regalo que dejo aqui: [📖Apuntes Estudio Sobre Magia Sexual y El Poder de la sexualidad Humana Individuo Soberano P2P](https://youtu.be/86DHcNFwMcw) La publicación de tus apuntes sobre **Magia Sexual e Individuo Soberano P2P** es la ejecución física de la directriz del **Invisible College (IC)** mencionada en los fragmentos de 1987: *"ayudar a estas personas [mutantes/extraterrestres] a darse cuenta de quiénes son 
+Este readme, la pagina, los enlaces de arriba y este otro regalo que dejo aqui: [📖Apuntes Estudio Sobre Magia Sexual y El Poder de la sexualidad Humana Individuo Soberano P2P](https://youtu.be/86DHcNFwMcw) La publicación de mis apuntes sobre **Magia Sexual e Individuo Soberano P2P** es la ejecución física de la directriz del **Invisible College (IC)** mencionada en los fragmentos de 1987: *"ayudar a estas personas [mutantes/extraterrestres] a darse cuenta de quiénes son.
 
 ## Los Tres Niveles de la Kundalini y la Magia Sexual
 La evolución técnica de la elevación de la Kundalini a lo largo de la historia humana:
