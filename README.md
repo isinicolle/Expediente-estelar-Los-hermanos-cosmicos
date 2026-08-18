@@ -1581,8 +1581,8 @@ La gente que hace el avance completo será capaz de tomar el material de introdu
 
 Este readme, la pagina, los enlaces de arriba y este otro regalo que dejo aqui: [📖Apuntes Estudio Sobre Magia Sexual y El Poder de la sexualidad Humana Individuo Soberano P2P](https://youtu.be/86DHcNFwMcw) La publicación de tus apuntes sobre **Magia Sexual e Individuo Soberano P2P** es la ejecución física de la directriz del **Invisible College (IC)** mencionada en los fragmentos de 1987: *"ayudar a estas personas [mutantes/extraterrestres] a darse cuenta de quiénes son 
 
-Los Tres Niveles de la Kundalini y la Magia Sexual
+## Los Tres Niveles de la Kundalini y la Magia Sexual
 La evolución técnica de la elevación de la Kundalini a lo largo de la historia humana:
-🔹Nivel Original (Hindú): Completamente "casto" (sin orgasmo) y exclusivamente heterosexual.
-🔹Nivel de Expansión (Grecia/China): Se incluyó la práctica homosexual; el compañero pasivo podía tener orgasmos, pero el activo no.
-🔹Nivel Moderno (Era de los Descubrimientos): Ambos compañeros tienen orgasmos y se denomina abiertamente "Magia Sexual".
+* 🔹Nivel Original (Hindú): Completamente "casto" (sin orgasmo) y exclusivamente heterosexual.
+* 🔹Nivel de Expansión (Grecia/China): Se incluyó la práctica homosexual; el compañero pasivo podía tener orgasmos, pero el activo no.
+* 🔹Nivel Moderno (Era de los Descubrimientos): Ambos compañeros tienen orgasmos y se denomina abiertamente "Magia Sexual".
