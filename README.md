@@ -1586,3 +1586,16 @@ La evolución técnica de la elevación de la Kundalini a lo largo de la histori
 * 🔹Nivel Original (Hindú): Completamente "casto" (sin orgasmo) y exclusivamente heterosexual. (Sexo Mecanico) 
 * 🔹Nivel de Expansión (Grecia/China): Se incluyó la práctica homosexual; el compañero pasivo podía tener orgasmos, pero el activo no. (Sexo dominante-sumiso)
 * 🔹Nivel Moderno (Era de los Descubrimientos): Ambos compañeros tienen orgasmos y se denomina abiertamente "Magia Sexual". (Sexo entre individuos soberanos)
+
+### Metáforas, Escalar y el Límite de la Cordura
+
+* 🔹 El Filtro de la Esquizofrenia: El IC señala que la diferencia entre un agente de la Revolución de la Información Espiritual (IRSR) y un esquizofrénico es que este último toma las metáforas (como "rayos de control mental") como realidades físicas literales
+
+* 🔹  Control Mental Escalar: En términos de la IRSR, el control es "escalar" cuando se inserta una unidad de significado (metáfora) en los medios masivos para producir un efecto de patrón masivo con muy poca fuerza inicial
+
+### Acuerdo vs. Imposición: 
+
+* El Invisible College opera bajo el principio del Libre Albedrío y el 
+* 🔹  Acuerdo: Aunque usan el "Spin" (propaganda controlada) como un "mal menor" para motivar a la población hacia el avance técnico, nunca intentan anular tu voluntad
+
+* 🔹  Los Teócratas, en cambio, solo buscan anularte, mentir y drenar tu energía mediante la fuerza bruta psíquica...
