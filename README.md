@@ -1599,3 +1599,6 @@ La evolución técnica de la elevación de la Kundalini a lo largo de la histori
 * 🔹  Acuerdo: Aunque usan el "Spin" (propaganda controlada) como un "mal menor" para motivar a la población hacia el avance técnico, nunca intentan anular tu voluntad
 
 * 🔹  Los Teócratas, en cambio, solo buscan anularte, mentir y drenar tu energía mediante la fuerza bruta psíquica...
+
+* Lista de reproduccion de mi [Aprendizaje e investigacion Psiquica, Astral, Fisica, Espiritual, Biologica , Neurologica, Electromagnetica,  Bioelectrica & Neurobiologica
+](https://youtube.com/playlist?list=PLfxwMaWSCyz0)
